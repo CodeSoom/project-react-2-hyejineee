@@ -10,12 +10,12 @@ exports.config = {
   helpers: {
     Puppeteer: {
       url: 'http://localhost:8080',
-      show: false,
-      windowSize: '1200x900',
-    },
+      show: true,
+      windowSize: '1200x900'
+    }
   },
   include: {
-    I: './steps_file.js',
+    I: './steps_file.js'
   },
   bootstrap: null,
   mocha: {},
@@ -23,13 +23,13 @@ exports.config = {
   plugins: {
     pauseOnFail: {},
     retryFailedStep: {
-      enabled: true,
+      enabled: true
     },
     tryTo: {
-      enabled: true,
+      enabled: true
     },
     screenshotOnFail: {
-      enabled: true,
-    },
-  },
-};
+      enabled: true
+    }
+  }
+}
