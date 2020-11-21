@@ -12,12 +12,13 @@ module.exports = {
     ],
   },
   resolve: {
-    extensions: ['.js', '.jsx'],
     alias: {
       presentational: path.resolve(__dirname, 'src/presentational/'),
       container: path.resolve(__dirname, 'src/container/'),
       _redux: path.resolve(__dirname, 'src/redux/'),
+      data: path.resolve(__dirname, 'src/data/'),
     },
+    extensions: ['.js', '.jsx'],
   },
   devServer: {
     historyApiFallback: {
