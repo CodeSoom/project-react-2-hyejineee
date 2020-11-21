@@ -36,7 +36,7 @@ const questions = [
   {
     id: 3,
     category: 'season',
-    question: '4. 어떤 계절의 산을 원하나요?',
+    question: '3. 어떤 계절의 산을 원하나요?',
     options: [
       { id: 1, option: '봄' },
       { id: 2, option: '여름' },
@@ -47,7 +47,7 @@ const questions = [
   {
     id: 4,
     category: 'activity',
-    question: '5. 산에서 무엇을 하고 싶으세요?',
+    question: '4. 산에서 무엇을 하고 싶으세요?',
     options: [
       { id: 1, option: '열심히 등산하기' },
       { id: 2, option: '경치 구경하기' },
