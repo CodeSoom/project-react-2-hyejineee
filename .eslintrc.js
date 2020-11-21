@@ -28,9 +28,9 @@ module.exports = {
     'react',
   ],
   rules: {
-    indent: ['error', 2],
+    'indent': ['error', 2],
     'no-trailing-spaces': 'error',
-    curly: 'error',
+    'curly': 'error',
     'brace-style': 'error',
     'no-multi-spaces': 'error',
     'space-infix-ops': 'error',
@@ -52,6 +52,7 @@ module.exports = {
     'react/prop-types': 'off',
     'linebreak-style': 'off',
     'no-proto': 'off',
+    'quote-props': ['error', 'consistent'],
   },
   settings: { 'import/resolver': 'webpack' },
 };

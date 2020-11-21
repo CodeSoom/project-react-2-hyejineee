@@ -30,7 +30,7 @@ const questions = [
     options: [
       { id: 1, option: '초보자' },
       { id: 2, option: '중급자' },
-      { id: 3, option: '숙련가' },
+      { id: 3, option: '상급자' },
     ],
   },
   {

@@ -10,11 +10,11 @@ export default function RadioInput({
 
   return (
     <>
-      <label htmlFor={`option-${id}`}>{value}</label>
+      <label htmlFor={`${name}-${id}`}>{value}</label>
       <input
         type="radio"
         name={name}
-        id={`option-${id}`}
+        id={`${name}-${id}`}
         value={value}
         onChange={handleChange}
       />

@@ -1,4 +1,4 @@
-const courses = [
+const climbingCourses = [
   {
     id: 1,
     region: '서울',
@@ -62,4 +62,4 @@ const courses = [
   },
 ];
 
-export default courses;
+export default climbingCourses;

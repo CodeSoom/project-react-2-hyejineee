@@ -7,6 +7,7 @@ const initialState = {
     season: '',
     activity: '',
   },
+  courses: [],
 };
 
 const reducers = {
@@ -22,6 +23,17 @@ const reducers = {
       }
     );
   },
+
+  setCourses(state, { payload: courses }) {
+    if (courses.length <= 0) {
+      return state;
+    }
+
+    return {
+      ...state,
+      courses,
+    };
+  },
 };
 
 const { reducer, actions } = createSlice({
@@ -32,6 +44,7 @@ const { reducer, actions } = createSlice({
 
 export const {
   selectOption,
+  setCourses,
 } = actions;
 
 export default reducer;
