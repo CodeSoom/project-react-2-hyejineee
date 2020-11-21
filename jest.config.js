@@ -1,7 +1,7 @@
 module.exports = {
   setupFilesAfterEnv: [
     // 'given2/setup',
-    // 'jest-plugin-context/setup',
+    'jest-plugin-context/setup',
     './jest.setup',
   ],
   coverageThreshold: {
@@ -16,5 +16,6 @@ module.exports = {
     '^presentational/(.*)': '<rootDir>/src/presentational/$1',
     '^container/(.*)': '<rootDir>/src/container/$1',
     '^_redux/(.*)': '<rootDir>/src/redux/$1',
+    '^data/(.*)': '<rootDir>/src/data/$1',
   },
 };
