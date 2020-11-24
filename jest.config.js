@@ -17,5 +17,6 @@ module.exports = {
     '^container/(.*)': '<rootDir>/src/container/$1',
     '^_redux/(.*)': '<rootDir>/src/redux/$1',
     '^data/(.*)': '<rootDir>/src/data/$1',
+    '^service/(.*)': '<rootDir>/src/service/$1',
   },
 };

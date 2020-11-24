@@ -73,7 +73,7 @@ describe('reducer', () => {
       it('change courses', () => {
         const state = reducer(previousState, setCourses([]));
 
-        expect(state).toBe(previousState);
+        expect(state).toEqual(previousState);
       });
     });
   });

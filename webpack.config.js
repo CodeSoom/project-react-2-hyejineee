@@ -17,6 +17,7 @@ module.exports = {
       container: path.resolve(__dirname, 'src/container/'),
       _redux: path.resolve(__dirname, 'src/redux/'),
       data: path.resolve(__dirname, 'src/data/'),
+      service: path.resolve(__dirname, 'src/service/'),
     },
     extensions: ['.js', '.jsx'],
   },

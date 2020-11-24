@@ -13,6 +13,7 @@ const initialState = {
 const reducers = {
   selectOption(state, { payload: { name, value } }) {
     const { selectedOptions } = state;
+
     return (
       {
         ...state,
@@ -25,10 +26,6 @@ const reducers = {
   },
 
   setCourses(state, { payload: courses }) {
-    if (courses.length <= 0) {
-      return state;
-    }
-
     return {
       ...state,
       courses,

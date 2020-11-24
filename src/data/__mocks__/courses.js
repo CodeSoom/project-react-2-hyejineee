@@ -55,6 +55,24 @@ const climbingCourses = [
     tags: [
       '산책', '아차산 할아버지 순두부',
     ],
+  }, {
+    id: 4,
+    region: '서울',
+    mountainName: '소요산',
+    courseName: '공주봉 코스',
+    course: '소요산역 - 일주문 - 구절터 - 공주봉',
+    elevation: '526m',
+    difficulty: '하',
+    homepageUrl: 'https://www.ddc.go.kr/tour/contents.do?key=567',
+    activities: [
+      '경치 구경하기',
+    ],
+    seasons: [
+      '봄', '가을',
+    ],
+    tags: [
+      '원효폭포', '단풍축제', '봄나들이 축제',
+    ],
   },
 ];
 
