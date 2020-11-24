@@ -1,31 +1,26 @@
-name: Deploy
-
+name: Build and Deploy
 on: 
-  push:
+  push :
     branches:
       - main
-
 jobs:
-  build:
-    runs-on: ubuntu-18.04
+  build-and-deploy:
+    runs-on: ubuntu-latest
     steps:
-      - name: Checkout source code.   # 레포지토리 체크아웃
-        uses: actions/checkout@master
-
-      - name: Cache node modules      # node modules 캐싱
-        uses: actions/cache@v1
+      - name: Checkout 🛎️
+        uses: actions/checkout@main # If you're using actions/checkout@v2 you must set persist-credentials to false in most cases for the deployment to work correctly.
         with:
-          path: node_modules
-          key: ${{ runner.OS }}-build-${{ hashFiles('**/package-lock.json') }}
-          restore-keys: |
-            ${{ runner.OS }}-build-
-            ${{ runner.OS }}-
+          persist-credentials: false
 
-      - name: Install Dependencies    # 의존 파일 설치
-        run: npm install
+      - name: Install and Build 🔧 # This example project is built using npm and outputs the result to the 'build' folder. Replace with the commands required to build your project, or remove this step entirely if your site is pre-built.
+        run: |
+          npm install
+          npm run build
 
-      - name: Build                   # React Build
-        run: npm run build
-      
-      - name : Deploy
-        run : npm run deploy
+      - name: Deploy 🚀
+        uses: JamesIves/github-pages-deploy-action@3.7.1
+        with:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          BRANCH: gh-pages # The branch the action should deploy to.
+          FOLDER: build # The folder the action should deploy.
+          CLEAN: true # Automatically remove deleted files from the deploy branch
