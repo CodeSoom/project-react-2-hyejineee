@@ -26,7 +26,7 @@ describe('QuestionsContainer', () => {
   it('render questions and the options per question', () => {
     const { container, getByLabelText } = renderQuestionsContainer();
 
-    expect(container).toHaveTextContent('1. 지역을 선택해 주세요.');
+    expect(container).toHaveTextContent('지역을 선택해 주세요.');
 
     expect(getByLabelText('서울')).not.toBeNull();
   });
