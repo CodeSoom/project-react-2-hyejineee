@@ -4,17 +4,17 @@ import reducer, {
 } from './slice';
 
 describe('reducer', () => {
-  context('when previous state is undefined', () => {
-    const initialState = {
-      selectedOptions: {
-        region: '',
-        climbingLevel: '',
-        season: '',
-        activity: '',
-      },
-      courses: [],
-    };
+  const initialState = {
+    selectedOptions: {
+      region: '',
+      climbingLevel: '',
+      season: '',
+      activity: '',
+    },
+    courses: [],
+  };
 
+  context('when previous state is undefined', () => {
     it('return initial state', () => {
       const state = reducer(undefined, { type: 'action' });
 
@@ -23,18 +23,12 @@ describe('reducer', () => {
   });
 
   describe('selectOption', () => {
-    const previousState = {
-      selectedOptions: {
-        region: '',
-        climbingLevel: '',
-        season: '',
-        activity: '',
-      },
-    };
-
     describe('select option about region', () => {
       it('change region of selectedOption', () => {
-        const { selectedOptions: { region } } = reducer(previousState, selectOption({ name: 'region', value: '서울' }));
+        const { selectedOptions: { region } } = reducer(
+          initialState,
+          selectOption({ name: 'region', value: '서울' }),
+        );
 
         expect(region).toEqual('서울');
       });
@@ -42,38 +36,24 @@ describe('reducer', () => {
   });
 
   describe('setCourses', () => {
-    const previousState = {
-      selectedOptions: {
-        region: '',
-        climbingLevel: '',
-        season: '',
-        activity: '',
-      },
-      courses: [],
-    };
-
     const courses = [
-      {
-        courseName: '1코스',
-      },
-      {
-        courseName: '2코스',
-      },
+      { courseName: '1코스' },
+      { courseName: '2코스' },
     ];
 
     context('when exist courses', () => {
       it('change courses', () => {
-        const state = reducer(previousState, setCourses(courses));
+        const state = reducer(initialState, setCourses(courses));
 
         expect(state.courses.length).toBe(2);
       });
     });
 
-    context('without courses', () => {
-      it('change courses', () => {
-        const state = reducer(previousState, setCourses([]));
+    context('with empty', () => {
+      it('returns previous state', () => {
+        const state = reducer(initialState, setCourses([]));
 
-        expect(state).toEqual(previousState);
+        expect(state).toEqual(initialState);
       });
     });
   });
