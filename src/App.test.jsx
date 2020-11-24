@@ -25,7 +25,7 @@ describe('App', () => {
       <App />
     ));
 
-    expect(container).toHaveTextContent('1. 지역을 선택해 주세요.');
+    expect(container).toHaveTextContent('지역을 선택해 주세요.');
     expect(getAllByLabelText('서울')).not.toBeNull();
   });
 });

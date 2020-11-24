@@ -25,3 +25,6 @@ export function findClimbingCourses({
     && hasSeason(course.seasons)
     && hasActivity(course.activities));
 }
+
+// delete this
+export const xxx = '';
