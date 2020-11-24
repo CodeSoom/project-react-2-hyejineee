@@ -27,8 +27,9 @@ module.exports = {
     extensions: ['.js', '.jsx'],
   },
   devServer: {
+    publicPath : '/build/',
     historyApiFallback: {
       index: 'index.html',
-    },
+    }, 
   },
 };
