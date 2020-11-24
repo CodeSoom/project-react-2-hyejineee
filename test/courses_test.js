@@ -1,4 +1,4 @@
-Feature('course');
+Feature('courses');
 
 Scenario('사용자는 각 단계에서 질문에서 옵션을 선택하고 등산코스 리스트를 봅니다.', ({ I }) => {
   I.amOnPage('/');
