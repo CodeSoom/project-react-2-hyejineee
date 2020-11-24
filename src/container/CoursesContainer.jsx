@@ -6,7 +6,7 @@ import { setCourses } from '_redux/slice';
 
 import { findClimbingCourses } from 'service/courses';
 
-import CourseItem from '../presentational/CourseItem';
+import CourseItem from 'presentational/CourseItem';
 
 export default function CoursesContainer() {
   const dispatch = useDispatch();
