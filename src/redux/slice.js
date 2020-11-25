@@ -14,15 +14,13 @@ const reducers = {
   selectOption(state, { payload: { name, value } }) {
     const { selectedOptions } = state;
 
-    return (
-      {
-        ...state,
-        selectedOptions: {
-          ...selectedOptions,
-          [name]: value,
-        },
-      }
-    );
+    return {
+      ...state,
+      selectedOptions: {
+        ...selectedOptions,
+        [name]: value,
+      },
+    };
   },
 
   setCourses(state, { payload: courses }) {
