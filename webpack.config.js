@@ -15,6 +15,30 @@ module.exports = {
         exclude: /node_modules/,
         use: 'babel-loader',
       },
+      {
+        test: /\.(png|jpg|gif)$/,
+        use: [
+          {
+            loader: 'file-loader',
+            options: {
+              publicPath: './build/',
+              name: 'images/[name].[ext]',
+            },
+          },
+        ],
+      },
+      {
+        test: /\.(gpx)$/,
+        use: [
+          {
+            loader: 'file-loader',
+            options: {
+              publicPath: './build/',
+              name: 'data/gpx/[name].[ext]',
+            },
+          },
+        ],
+      },
     ],
   },
   resolve: {

@@ -9,12 +9,6 @@ import CoursesContainer from './CoursesContainer';
 jest.mock('react-redux');
 
 describe('CoursesContainer', () => {
-  function renderCoursesContainer() {
-    return render(
-      <CoursesContainer />,
-    );
-  }
-
   const dispatch = jest.fn();
 
   beforeEach(() => {
@@ -53,8 +47,13 @@ describe('CoursesContainer', () => {
     }));
   });
 
-  it('calls setCourses action', () => {
+  function renderCoursesContainer() {
+    return render(<CoursesContainer />);
+  }
+
+  it('calls setCourses action', async () => {
     renderCoursesContainer();
+
     expect(dispatch).toBeCalled();
   });
 });

@@ -7,7 +7,6 @@ const climbingCourses = [
     course: '소요산역 - 일주문 - 구절터 - 공주봉',
     elevation: '526m',
     difficulty: '하',
-    homepageUrl: 'https://www.ddc.go.kr/tour/contents.do?key=567',
     activities: [
       '경치 구경하기',
     ],
@@ -26,7 +25,6 @@ const climbingCourses = [
     course: '북한산성탐방지원센터 - 대서문 - 보리사 - 백운대 ',
     elevation: '836.5m',
     difficulty: '중',
-    homepageUrl: 'http://www.knps.or.kr/front/portal/visit/visitCourseSubMain.do?parkId=121500&parkNavGb=guide&menuNo=7020092',
     activities: [
       '열심히 등산하기',
     ],
@@ -45,7 +43,6 @@ const climbingCourses = [
     course: '아차산생태공원-소나무숲-아차산길-낙타고개-친수계곡-아차산관리사무소-만남의광장',
     elevation: '295.7m',
     difficulty: '하',
-    homepageUrl: 'https://www.gwangjin.go.kr/portal/main/contents.do?menuNo=200285',
     activities: [
       '금강산도 식후경',
     ],

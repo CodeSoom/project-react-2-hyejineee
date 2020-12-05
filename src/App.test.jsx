@@ -4,11 +4,9 @@ import { render } from '@testing-library/react';
 
 import { useDispatch, useSelector } from 'react-redux';
 
-import { NaverMap } from 'react-naver-maps';
 import App from './App';
 
 jest.mock('react-redux');
-jest.mock('react-naver-maps');
 
 describe('App', () => {
   useDispatch.mockImplementation(() => jest.fn());
@@ -21,10 +19,6 @@ describe('App', () => {
     },
     courses: [],
   }));
-
-  NaverMap.mockImplementation(() => (
-    <div id="react-naver-map" />
-  ));
 
   it('render questions and options', () => {
     const { container, getAllByLabelText } = render((
