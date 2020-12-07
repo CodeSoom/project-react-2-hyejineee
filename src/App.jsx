@@ -1,13 +1,14 @@
 import React from 'react';
+import { Route, Switch } from 'react-router-dom';
 
-import QuestionsContainer from 'container/QuestionsContainer';
-import CoursesContainer from 'container/CoursesContainer';
+import HomePage from 'page/HomePage';
 
 export default function App() {
   return (
     <div>
-      <QuestionsContainer />
-      <CoursesContainer />
+      <Switch>
+        <Route exact path="/" component={HomePage} />
+      </Switch>
     </div>
   );
 }
