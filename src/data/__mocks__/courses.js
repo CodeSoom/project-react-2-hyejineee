@@ -55,7 +55,8 @@ const climbingCourses = [
     tags: [
       '산책', '아차산 할아버지 순두부',
     ],
-  }, {
+  },
+  {
     id: 4,
     region: '서울',
     mountainName: '소요산',

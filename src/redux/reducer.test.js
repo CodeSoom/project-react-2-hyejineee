@@ -1,5 +1,6 @@
 import reducer, {
   selectOption,
+  setCourseGPX,
   setCourses,
 } from './slice';
 
@@ -12,6 +13,7 @@ describe('reducer', () => {
       activity: '',
     },
     courses: [],
+    courseGPX: '',
   };
 
   context('when previous state is undefined', () => {
@@ -55,6 +57,13 @@ describe('reducer', () => {
 
         expect(state).toEqual(initialState);
       });
+    });
+  });
+
+  describe('serCourseGPX', () => {
+    it('changes courseGPX', () => {
+      const state = reducer(initialState, setCourseGPX('gpx'));
+      expect(state.courseGPX).toBe('gpx');
     });
   });
 });

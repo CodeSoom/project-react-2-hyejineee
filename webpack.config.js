@@ -1,4 +1,5 @@
 const path = require('path');
+const Dotenv = require('dotenv-webpack');
 
 module.exports = {
   entry: path.resolve(__dirname, 'src/index.jsx'),
@@ -14,6 +15,30 @@ module.exports = {
         exclude: /node_modules/,
         use: 'babel-loader',
       },
+      {
+        test: /\.(png|jpg|gif)$/,
+        use: [
+          {
+            loader: 'file-loader',
+            options: {
+              publicPath: './build/',
+              name: 'images/[name].[ext]',
+            },
+          },
+        ],
+      },
+      {
+        test: /\.(gpx)$/,
+        use: [
+          {
+            loader: 'file-loader',
+            options: {
+              publicPath: './build/',
+              name: 'data/gpx/[name].[ext]',
+            },
+          },
+        ],
+      },
     ],
   },
   resolve: {
@@ -23,6 +48,7 @@ module.exports = {
       _redux: path.resolve(__dirname, 'src/redux/'),
       data: path.resolve(__dirname, 'src/data/'),
       service: path.resolve(__dirname, 'src/service/'),
+      utils: path.resolve(__dirname, 'src/utils.js'),
     },
     extensions: ['.js', '.jsx'],
   },
@@ -32,4 +58,7 @@ module.exports = {
       index: 'index.html',
     },
   },
+  plugins: [
+    new Dotenv(),
+  ],
 };

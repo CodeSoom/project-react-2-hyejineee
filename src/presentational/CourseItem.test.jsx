@@ -2,9 +2,21 @@ import React from 'react';
 
 import { render } from '@testing-library/react';
 
+import { NaverMap } from 'react-naver-maps';
+
 import CourseItem from './CourseItem';
 
+jest.mock('react-naver-maps');
+
 describe('CourseItem', () => {
+  NaverMap.mockImplementation(() => (
+    <div id="react-naver-map" />
+  ));
+
+  beforeEach(() => {
+    jest.clearAllMocks();
+  });
+
   function renderCourseItem() {
     const course = {
       id: 1,
