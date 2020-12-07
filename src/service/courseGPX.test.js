@@ -1,4 +1,4 @@
-import { getCourseGPXFile } from './courseGPX';
+import { fetchCourseGPXFile } from './courseGPX';
 
 describe('courseGPX', () => {
   const mockFetch = (data) => {
@@ -14,7 +14,7 @@ describe('courseGPX', () => {
 
     context('when exist course\'s gpx file', () => {
       it('return gpx file', async () => {
-        const gxpfile = await getCourseGPXFile(1);
+        const gxpfile = await fetchCourseGPXFile(1);
 
         expect(gxpfile).not.toBeNull();
       });

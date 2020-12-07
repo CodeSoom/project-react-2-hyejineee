@@ -1,4 +1,5 @@
 import { createSlice } from '@reduxjs/toolkit';
+import { fetchCourseGPXFile } from 'service/courseGPX';
 
 const initialState = {
   selectedOptions: {
@@ -8,6 +9,7 @@ const initialState = {
     activity: '',
   },
   courses: [],
+  courseGPX: '',
 };
 
 const reducers = {
@@ -29,6 +31,13 @@ const reducers = {
       courses,
     };
   },
+
+  setCourseGPX(state, { payload: courseGPX }) {
+    return {
+      ...state,
+      courseGPX,
+    };
+  },
 };
 
 const { reducer, actions } = createSlice({
@@ -40,6 +49,14 @@ const { reducer, actions } = createSlice({
 export const {
   selectOption,
   setCourses,
+  setCourseGPX,
 } = actions;
+
+export function loadCourseGPX(courseId) {
+  return async (dispatch) => {
+    const courseGPX = await fetchCourseGPXFile(courseId);
+    dispatch(setCourseGPX(courseGPX));
+  };
+}
 
 export default reducer;

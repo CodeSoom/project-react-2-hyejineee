@@ -4,6 +4,8 @@ import { render } from '@testing-library/react';
 
 import { NaverMap } from 'react-naver-maps';
 
+import { courseGpx } from '../../features/courseGpxFeature';
+
 import CourseMap from './CourseMap';
 
 jest.mock('react-naver-maps');
@@ -19,7 +21,7 @@ describe('CourseMap', () => {
 
   function renderCourseMap() {
     return render(
-      <CourseMap />,
+      <CourseMap courseGPX={courseGpx} />,
     );
   }
 

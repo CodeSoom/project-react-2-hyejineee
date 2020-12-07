@@ -48,6 +48,7 @@ module.exports = {
       _redux: path.resolve(__dirname, 'src/redux/'),
       data: path.resolve(__dirname, 'src/data/'),
       service: path.resolve(__dirname, 'src/service/'),
+      utils: path.resolve(__dirname, 'src/utils.js'),
     },
     extensions: ['.js', '.jsx'],
   },

@@ -2,9 +2,9 @@ import React from 'react';
 
 import { render } from '@testing-library/react';
 
-import { getCourseGPXFile } from 'service/courseGPX';
-
 import { RenderAfterNavermapsLoaded } from 'react-naver-maps';
+
+import { useDispatch, useSelector } from 'react-redux';
 
 import CourseMapContainer from './CourseMapContainer';
 
@@ -13,8 +13,13 @@ jest.mock('service/courseGPX');
 jest.mock('react-naver-maps');
 
 describe('CourseMapContainer', () => {
+  const disptch = jest.fn();
+  useDispatch.mockImplementation(() => disptch);
+  useSelector.mockImplementation((selector) => selector({
+    courseGPX: '',
+  }));
+
   RenderAfterNavermapsLoaded.mockImplementation(() => (<div />));
-  getCourseGPXFile.mockImplementation(() => '');
 
   beforeEach(() => {
     jest.clearAllMocks();
@@ -31,6 +36,6 @@ describe('CourseMapContainer', () => {
   it('calls getGPXfile ', () => {
     renderCourseMapContainer();
 
-    expect(getCourseGPXFile).toBeCalled();
+    expect(disptch).toBeCalled();
   });
 });

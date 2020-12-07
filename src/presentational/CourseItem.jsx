@@ -3,11 +3,11 @@ import React from 'react';
 export default function CourseItem({
   children,
   course: {
-    id, courseName, course, mountainName, tags,
+    courseName, course, mountainName, tags,
   },
 }) {
   return (
-    <div key={id}>
+    <div>
       <p>
         {`${mountainName} - ${courseName}`}
       </p>
@@ -17,6 +17,7 @@ export default function CourseItem({
           <p>{tag}</p>
         ))
       }
+
       {children}
     </div>
   );

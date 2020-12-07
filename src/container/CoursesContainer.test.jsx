@@ -44,6 +44,7 @@ describe('CoursesContainer', () => {
           ],
         },
       ],
+      courseGPX: '',
     }));
   });
 
@@ -51,7 +52,7 @@ describe('CoursesContainer', () => {
     return render(<CoursesContainer />);
   }
 
-  it('calls setCourses action', async () => {
+  it('calls setCourses action', () => {
     renderCoursesContainer();
 
     expect(dispatch).toBeCalled();

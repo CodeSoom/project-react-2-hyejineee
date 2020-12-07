@@ -1,4 +1,7 @@
-import { exist } from './utils';
+import {
+  exist,
+  converter,
+} from './utils';
 
 describe('utils', () => {
   describe('exist', () => {
@@ -11,6 +14,16 @@ describe('utils', () => {
       arrays.forEach((array) => {
         expect(exist('a')(array)).toEqual(true);
       });
+    });
+  });
+
+  describe('converter', () => {
+    it('return converted data', () => {
+      const parser = (str, mimeType) => ({});
+      const convertToXml = converter(parser)('text/xml');
+      const result = convertToXml('<customer>John Smith</customer>');
+
+      expect(result).toEqual({});
     });
   });
 });

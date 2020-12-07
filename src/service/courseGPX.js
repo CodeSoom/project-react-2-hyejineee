@@ -1,6 +1,6 @@
 import * as gpx from 'data/gpx';
 
-export async function getCourseGPXFile(courseId) {
+export async function fetchCourseGPXFile(courseId) {
   const url = gpx[`course${courseId}`].default;
 
   const response = await fetch(url, {
@@ -10,7 +10,7 @@ export async function getCourseGPXFile(courseId) {
   });
   const result = await response.text();
 
-  return new DOMParser().parseFromString(result, 'text/xml');
+  return result;
 }
 
 // TODO : delete this
