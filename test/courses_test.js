@@ -10,6 +10,7 @@ Scenario('사용자는 각 단계에서 질문에서 옵션을 선택하고 등�
 
   I.see('소요산 - 공주봉 코스');
   I.see('소요산역 - 일주문 - 구절터 - 공주봉');
+  I.see('https://www.ddc.go.kr/tour/contents.do?key=567');
 
   const tags = ['원효폭포', '단풍축제', '봄나들이 축제'];
 

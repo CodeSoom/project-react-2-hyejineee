@@ -4,7 +4,6 @@ import { render } from '@testing-library/react';
 
 import { useDispatch, useSelector } from 'react-redux';
 
-import { MemoryRouter } from 'react-router-dom';
 import App from './App';
 
 jest.mock('react-redux');
@@ -22,13 +21,11 @@ describe('App', () => {
   }));
 
   it('render questions and options', () => {
-    const { container, getByText } = render((
-      <MemoryRouter>
-        <App />
-      </MemoryRouter>
+    const { container, getAllByLabelText } = render((
+      <App />
     ));
 
-    expect(container).toHaveTextContent('당신만의 등산로를 찾아드립니다!');
-    expect(getByText('Start')).not.toBeNull();
+    expect(container).toHaveTextContent('지역을 선택해 주세요.');
+    expect(getAllByLabelText('서울')).not.toBeNull();
   });
 });
