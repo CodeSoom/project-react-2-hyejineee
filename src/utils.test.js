@@ -19,11 +19,11 @@ describe('utils', () => {
 
   describe('converter', () => {
     it('return converted data', () => {
-      const parser = (str, mimeType) => ({});
+      const parser = (_, __) => ({ _, __ });
       const convertToXml = converter(parser)('text/xml');
       const result = convertToXml('<customer>John Smith</customer>');
 
-      expect(result).toEqual({});
+      expect(result).toEqual({ _: '<customer>John Smith</customer>', __: 'text/xml' });
     });
   });
 });

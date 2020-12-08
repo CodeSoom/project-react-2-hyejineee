@@ -50,6 +50,8 @@
     },
     "dependencies": {
         "@codeceptjs/configure": "^0.6.2",
+        "@emotion/react": "^11.1.2",
+        "@emotion/styled": "^11.0.0",
         "@reduxjs/toolkit": "^1.4.0",
         "path": "^0.12.7",
         "react": "^17.0.1",

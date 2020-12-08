@@ -7,7 +7,6 @@ import { setCourses } from '_redux/slice';
 import { findClimbingCourses } from 'service/courses';
 
 import CourseItem from 'presentational/CourseItem';
-import CourseMapCotainer from './CourseMapContainer';
 
 export default function CoursesContainer() {
   const dispatch = useDispatch();
@@ -32,8 +31,6 @@ export default function CoursesContainer() {
           <CourseItem key={course.id} course={course} />
         ))
       }
-
-      <CourseMapCotainer courseId={1} />
     </div>
   );
 }

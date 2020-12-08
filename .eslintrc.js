@@ -27,7 +27,7 @@ module.exports = {
   plugins: [
     'react',
   ],
-  ignorePatterns: ['build/', 'node_modules/'],
+  ignorePatterns: ['build/', 'node_modules/', 'src/data/gpx'],
   rules: {
 
     'indent': ['error', 2],

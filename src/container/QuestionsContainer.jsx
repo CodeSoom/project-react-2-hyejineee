@@ -4,9 +4,9 @@ import questions from 'data/questions';
 
 import { useDispatch } from 'react-redux';
 
-import QuestionItem from 'presentational/QuestionItem';
-
 import { selectOption } from '_redux/slice';
+
+import Questions from 'presentational/Questions';
 
 export default function QuestionsContainer() {
   const dispatch = useDispatch();
@@ -15,21 +15,5 @@ export default function QuestionsContainer() {
     dispatch(selectOption({ name, value }));
   }
 
-  return (
-    <>
-      {
-        questions.map(({
-          id, category, question, options,
-        }) => (
-          <QuestionItem
-            key={id}
-            category={category}
-            question={question}
-            options={options}
-            onChange={handleChange}
-          />
-        ))
-      }
-    </>
-  );
+  return (<Questions questions={questions} onChange={handleChange} />);
 }
