@@ -4,6 +4,7 @@ import { render } from '@testing-library/react';
 
 import { useDispatch, useSelector } from 'react-redux';
 
+import { MemoryRouter } from 'react-router-dom';
 import App from './App';
 
 jest.mock('react-redux');
@@ -18,14 +19,22 @@ describe('App', () => {
       activity: '',
     },
     courses: [],
+    coureGPX: '',
   }));
 
-  it('render questions and options', () => {
-    const { container, getAllByLabelText } = render((
-      <App />
-    ));
+  function renderApp({ path }) {
+    return render(
+      <MemoryRouter initialEntries={[path]}>
+        <App />
+      </MemoryRouter>,
+    );
+  }
 
-    expect(container).toHaveTextContent('지역을 선택해 주세요.');
-    expect(getAllByLabelText('서울')).not.toBeNull();
+  context('with path /', () => {
+    it('renders the home page', () => {
+      const { container } = renderApp({ path: '/' });
+
+      expect(container).toHaveTextContent('당신만의 등산로를 찾아드립니다!');
+    });
   });
 });
