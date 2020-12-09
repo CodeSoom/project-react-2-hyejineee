@@ -8,11 +8,11 @@ const colors = {
 };
 
 const typos = {
-  main: `bold ${calcRem(38)} Noto Sans KR`,
-  sub: `bold ${calcRem(28)} Noto Sans KR`,
-  selected: `500 ${calcRem(24)} Noto Sans KR`,
-  nonSelected: `400 ${calcRem(24)} Noto Sans KR`,
-  context: `400 ${calcRem(18)} Noto Sans KR`,
+  xl: `bold ${calcRem(72)} Noto Sans KR`,
+  l: `bold ${calcRem(36)} Noto Sans KR`,
+  xm: `500 ${calcRem(24)} Noto Sans KR`,
+  m: `400 ${calcRem(24)} Noto Sans KR`,
+  s: `400 ${calcRem(18)} Noto Sans KR`,
 };
 
 const theme = {

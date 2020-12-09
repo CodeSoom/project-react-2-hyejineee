@@ -4,17 +4,16 @@ import { Link } from 'react-router-dom';
 
 import styled from '@emotion/styled';
 
-import Title from 'style/MainTitle';
 import Context from 'style/Context';
 
-import backgroud from 'asset/image/background.svg';
+import backgroud from 'asset/image/background.png';
 
 const Container = styled.div(() => ({
   'height': '100vh',
   'boxSizing': 'border-box',
   'backgroundImage': `url(${backgroud})`,
   'backgroundRepeat': 'no-repeat',
-  'backgroundSize': 'auto 90%',
+  'backgroundSize': 'auto 85%',
   'backgroundPosition': 'right bottom',
 
 }));
@@ -25,14 +24,19 @@ const ContentsBox = styled.div(({ theme }) => ({
   'marginLeft': '10rem',
 
   '& p': {
-    marginTop: '1rem',
-    marginBottom: '18.6rem',
+    marginTop: '2.3rem',
+    marginBottom: '23rem',
   },
 
   '& a': {
-    font: theme.typos.main,
+    font: theme.typos.xl,
     color: theme.colors.main,
   },
+}));
+
+const Title = styled.h1(({ theme }) => ({
+  font: theme.typos.l,
+  color: theme.colors.main,
 }));
 
 export default function HomePage() {
@@ -53,7 +57,9 @@ export default function HomePage() {
           <br />
         </Context>
 
-        <Link to="/questions">Start</Link>
+        <Link to="/questions">
+          Start
+        </Link>
       </ContentsBox>
 
     </Container>
