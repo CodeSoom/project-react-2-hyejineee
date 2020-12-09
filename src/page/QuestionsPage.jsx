@@ -1,7 +1,12 @@
 import React from 'react';
 
 import QuestionsContainer from 'container/QuestionsContainer';
+import Layout from '../presentational/Layout';
 
 export default function QuestionPage() {
-  return (<QuestionsContainer />);
+  return (
+    <Layout>
+      <QuestionsContainer />
+    </Layout>
+  );
 }

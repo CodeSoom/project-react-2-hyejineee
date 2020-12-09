@@ -24,5 +24,5 @@ module.exports = {
     '^utils': '<rootDir>/src/utils.js',
     '\\.(gpx)$': '<rootDir>/__mocks__/fileMock.js',
   },
-
+  modulePathIgnorePatterns: ['<rootDir>/src/style/'],
 };
