@@ -7,9 +7,9 @@ const colors = {
   sub2: '#ffefcc',
 };
 
-const typo = {
-  mainTitle: `bold ${calcRem(36)} Noto Sans KR`,
-  subTitle: `bold ${calcRem(28)} Noto Sans KR`,
+const typos = {
+  main: `bold ${calcRem(38)} Noto Sans KR`,
+  sub: `bold ${calcRem(28)} Noto Sans KR`,
   selected: `500 ${calcRem(24)} Noto Sans KR`,
   nonSelected: `400 ${calcRem(24)} Noto Sans KR`,
   context: `400 ${calcRem(18)} Noto Sans KR`,
@@ -17,7 +17,7 @@ const typo = {
 
 const theme = {
   colors,
-  typo,
+  typos,
 };
 
 export default theme;
