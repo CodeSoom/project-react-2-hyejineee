@@ -1263,6 +1263,18 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) *
 
 /***/ }),
 
+/***/ "./src/asset/image/background.png":
+/*!****************************************!*\
+  !*** ./src/asset/image/background.png ***!
+  \****************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (\"./build//assets/images/background.png\");\n\n//# sourceURL=webpack:///./src/asset/image/background.png?");
+
+/***/ }),
+
 /***/ "./src/container/CourseMapContainer.jsx":
 /*!**********************************************!*\
   !*** ./src/container/CourseMapContainer.jsx ***!
@@ -1379,7 +1391,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var reac
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"default\", function() { return HomePage; });\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-router-dom */ \"./node_modules/react-router-dom/esm/react-router-dom.js\");\n/* harmony import */ var style_MainTitle__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! style/MainTitle */ \"./src/style/MainTitle.js\");\n/* harmony import */ var style_Context__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! style/Context */ \"./src/style/Context.js\");\n\n\n\n\nfunction HomePage() {\n  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"div\", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(style_MainTitle__WEBPACK_IMPORTED_MODULE_2__[\"default\"], null, \"\\uB2F9\\uC2E0\\uB9CC\\uC758 \\uB4F1\\uC0B0\\uB85C\\uB97C \\uCC3E\\uC544\\uB4DC\\uB9BD\\uB2C8\\uB2E4!\"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(style_Context__WEBPACK_IMPORTED_MODULE_3__[\"default\"], null, \"\\uB098\\uC5D0\\uAC8C \\uB9DE\\uB294 \\uB4F1\\uC0B0\\uB85C\\uB294 \\uC5B4\\uB514\\uC5D0 \\uC788\\uC744\\uAE4C\\uC694?\", ' ', /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"br\", null), \"\\uB098\\uC758 \\uB4F1\\uC0B0 \\uC2E4\\uB825, \\uB4F1\\uC0B0\\uC758 \\uBAA9\\uC801, \\uADF8\\uB9AC\\uACE0 \\uB4F1\\uC0B0\\uC744 \\uC6D0\\uD558\\uB294 \\uACC4\\uC808\\uAE4C\\uC9C0\", ' ', /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"br\", null), \"\\uAC04\\uD3B8\\uD558\\uAC8C \\uC120\\uD0DD\\uD558\\uACE0 \\uC5EC\\uAE30\\uC800\\uAE30 \\uC228\\uACA8\\uC9C4 \\uB098\\uB9CC\\uC758 \\uB4F1\\uC0B0\\uB85C\\uB97C \\uCC3E\\uC544\\uBCF4\\uC138\\uC694!\", ' ', /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"br\", null)), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__[\"Link\"], {\n    to: \"/questions\"\n  }, \"Start\"));\n}\n\n//# sourceURL=webpack:///./src/page/HomePage.jsx?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"default\", function() { return HomePage; });\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-router-dom */ \"./node_modules/react-router-dom/esm/react-router-dom.js\");\n/* harmony import */ var _emotion_styled__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @emotion/styled */ \"./node_modules/@emotion/styled/dist/emotion-styled.browser.esm.js\");\n/* harmony import */ var style_Context__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! style/Context */ \"./src/style/Context.js\");\n/* harmony import */ var asset_image_background_png__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! asset/image/background.png */ \"./src/asset/image/background.png\");\n\n\n\n\n\nconst Container = _emotion_styled__WEBPACK_IMPORTED_MODULE_2__[\"default\"].div(() => ({\n  'height': '100vh',\n  'boxSizing': 'border-box',\n  'backgroundImage': `url(${asset_image_background_png__WEBPACK_IMPORTED_MODULE_4__[\"default\"]})`,\n  'backgroundRepeat': 'no-repeat',\n  'backgroundSize': 'auto 90%',\n  'backgroundPosition': 'right bottom'\n}));\nconst ContentsBox = _emotion_styled__WEBPACK_IMPORTED_MODULE_2__[\"default\"].div(({\n  theme\n}) => ({\n  'position': 'absolute',\n  'marginTop': '12rem',\n  'marginLeft': '10rem',\n  '& p': {\n    marginTop: '2.3rem',\n    marginBottom: '23rem'\n  },\n  '& a': {\n    font: theme.typos.xl,\n    color: theme.colors.main\n  }\n}));\nconst Title = _emotion_styled__WEBPACK_IMPORTED_MODULE_2__[\"default\"].h1(({\n  theme\n}) => ({\n  font: theme.typos.l,\n  color: theme.colors.main\n}));\nfunction HomePage() {\n  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Container, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(ContentsBox, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Title, null, \"\\uB2F9\\uC2E0\\uB9CC\\uC758 \\uB4F1\\uC0B0\\uB85C\\uB97C \\uCC3E\\uC544\\uB4DC\\uB9BD\\uB2C8\\uB2E4!\"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(style_Context__WEBPACK_IMPORTED_MODULE_3__[\"default\"], null, \"\\uB098\\uC5D0\\uAC8C \\uB9DE\\uB294 \\uB4F1\\uC0B0\\uB85C\\uB294 \\uC5B4\\uB514\\uC5D0 \\uC788\\uC744\\uAE4C\\uC694?\", ' ', /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"br\", null), \"\\uB098\\uC758 \\uB4F1\\uC0B0 \\uC2E4\\uB825, \\uB4F1\\uC0B0\\uC758 \\uBAA9\\uC801, \\uADF8\\uB9AC\\uACE0 \\uB4F1\\uC0B0\\uC744 \\uC6D0\\uD558\\uB294 \\uACC4\\uC808\\uAE4C\\uC9C0\", ' ', /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"br\", null), \"\\uAC04\\uD3B8\\uD558\\uAC8C \\uC120\\uD0DD\\uD558\\uACE0 \\uC5EC\\uAE30\\uC800\\uAE30 \\uC228\\uACA8\\uC9C4 \\uB098\\uB9CC\\uC758 \\uB4F1\\uC0B0\\uB85C\\uB97C \\uCC3E\\uC544\\uBCF4\\uC138\\uC694!\", ' ', /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"br\", null)), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__[\"Link\"], {\n    to: \"/questions\"\n  }, \"Start\")));\n}\n\n//# sourceURL=webpack:///./src/page/HomePage.jsx?");
 
 /***/ }),
 
@@ -1571,19 +1583,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) *
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _emotion_styled__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @emotion/styled */ \"./node_modules/@emotion/styled/dist/emotion-styled.browser.esm.js\");\n\nconst Context = _emotion_styled__WEBPACK_IMPORTED_MODULE_0__[\"default\"].p(({\n  theme\n}) => ({\n  font: theme.typos.context,\n  color: theme.colors.context\n}));\n/* harmony default export */ __webpack_exports__[\"default\"] = (Context);\n\n//# sourceURL=webpack:///./src/style/Context.js?");
-
-/***/ }),
-
-/***/ "./src/style/MainTitle.js":
-/*!********************************!*\
-  !*** ./src/style/MainTitle.js ***!
-  \********************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _emotion_styled__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @emotion/styled */ \"./node_modules/@emotion/styled/dist/emotion-styled.browser.esm.js\");\n\nconst Title = _emotion_styled__WEBPACK_IMPORTED_MODULE_0__[\"default\"].h1(({\n  theme\n}) => ({\n  font: theme.typos.main,\n  color: theme.colors.main\n}));\n/* harmony default export */ __webpack_exports__[\"default\"] = (Title);\n\n//# sourceURL=webpack:///./src/style/MainTitle.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _emotion_styled__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @emotion/styled */ \"./node_modules/@emotion/styled/dist/emotion-styled.browser.esm.js\");\n\nconst Context = _emotion_styled__WEBPACK_IMPORTED_MODULE_0__[\"default\"].p(({\n  theme\n}) => ({\n  font: theme.typos.s,\n  color: theme.colors.context\n}));\n/* harmony default export */ __webpack_exports__[\"default\"] = (Context);\n\n//# sourceURL=webpack:///./src/style/Context.js?");
 
 /***/ }),
 
@@ -1595,7 +1595,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _emo
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\nconst calcRem = size => `${size / 16}rem`;\n\nconst colors = {\n  context: '#6c6c6c',\n  main: '#3697ff',\n  sub1: '#a28440',\n  sub2: '#ffefcc'\n};\nconst typos = {\n  main: `bold ${calcRem(38)} Noto Sans KR`,\n  sub: `bold ${calcRem(28)} Noto Sans KR`,\n  selected: `500 ${calcRem(24)} Noto Sans KR`,\n  nonSelected: `400 ${calcRem(24)} Noto Sans KR`,\n  context: `400 ${calcRem(18)} Noto Sans KR`\n};\nconst theme = {\n  colors,\n  typos\n};\n/* harmony default export */ __webpack_exports__[\"default\"] = (theme);\n\n//# sourceURL=webpack:///./src/style/theme.js?");
+eval("__webpack_require__.r(__webpack_exports__);\nconst calcRem = size => `${size / 16}rem`;\n\nconst colors = {\n  context: '#6c6c6c',\n  main: '#3697ff',\n  sub1: '#a28440',\n  sub2: '#ffefcc'\n};\nconst typos = {\n  xl: `bold ${calcRem(72)} Noto Sans KR`,\n  l: `bold ${calcRem(36)} Noto Sans KR`,\n  xm: `500 ${calcRem(24)} Noto Sans KR`,\n  m: `400 ${calcRem(24)} Noto Sans KR`,\n  s: `400 ${calcRem(18)} Noto Sans KR`\n};\nconst theme = {\n  colors,\n  typos\n};\n/* harmony default export */ __webpack_exports__[\"default\"] = (theme);\n\n//# sourceURL=webpack:///./src/style/theme.js?");
 
 /***/ }),
 
