@@ -14,28 +14,39 @@ jest.mock('react-naver-maps');
 
 describe('CourseMapContainer', () => {
   const disptch = jest.fn();
-  useDispatch.mockImplementation(() => disptch);
-  useSelector.mockImplementation((selector) => selector({
-    courseGPX: '',
-  }));
 
   RenderAfterNavermapsLoaded.mockImplementation(() => (<div />));
 
   beforeEach(() => {
     jest.clearAllMocks();
+
+    useDispatch.mockImplementation(() => disptch);
+    useSelector.mockImplementation((selector) => selector({
+      courseGPX: '',
+      selectedCourse: given.selectedCourse,
+    }));
   });
 
   function renderCourseMapContainer() {
     return render(
-      <CourseMapContainer
-        courseId={1}
-      />,
+      <CourseMapContainer />,
     );
   }
 
   it('calls getGPXfile ', () => {
+    given('selectedCourse', () => 1);
     renderCourseMapContainer();
 
     expect(disptch).toBeCalled();
+  });
+
+  context('without selectedCourse', () => {
+    given('selectedCourse', () => null);
+
+    it('doesn t call dispatch', () => {
+      renderCourseMapContainer();
+
+      expect(disptch).not.toBeCalled();
+    });
   });
 });

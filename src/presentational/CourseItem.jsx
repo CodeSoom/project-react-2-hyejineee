@@ -1,11 +1,15 @@
 import React from 'react';
 
 export default function CourseItem({
-  children,
   course: {
-    courseName, course, mountainName, tags,
+    id, courseName, course, mountainName, tags,
   },
+  onClick,
 }) {
+  function handleClick() {
+    onClick(id);
+  }
+
   return (
     <div>
       <p>
@@ -17,8 +21,7 @@ export default function CourseItem({
           <p>{tag}</p>
         ))
       }
-
-      {children}
+      <button type="button" onClick={handleClick}>.</button>
     </div>
   );
 }

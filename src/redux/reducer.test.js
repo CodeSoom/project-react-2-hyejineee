@@ -2,6 +2,7 @@ import reducer, {
   selectOption,
   setCourseGPX,
   setCourses,
+  selectedCourse,
 } from './slice';
 
 describe('reducer', () => {
@@ -14,6 +15,7 @@ describe('reducer', () => {
     },
     courses: [],
     courseGPX: '',
+    selectedCourse: null,
   };
 
   context('when previous state is undefined', () => {
@@ -64,6 +66,13 @@ describe('reducer', () => {
     it('changes courseGPX', () => {
       const state = reducer(initialState, setCourseGPX('gpx'));
       expect(state.courseGPX).toBe('gpx');
+    });
+  });
+
+  describe('selectedCourse', () => {
+    it('changes selectedCourse', () => {
+      const state = reducer(initialState, selectedCourse(1));
+      expect(state.selectedCourse).toBe(1);
     });
   });
 });

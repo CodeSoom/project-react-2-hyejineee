@@ -37,4 +37,12 @@ describe('App', () => {
       expect(container).toHaveTextContent('당신만의 등산로를 찾아드립니다!');
     });
   });
+
+  context('with path /questions', () => {
+    it('renders the qustions page', () => {
+      const { container } = renderApp({ path: '/questions' });
+
+      expect(container).toHaveTextContent('지역을 선택해 주세요.');
+    });
+  });
 });
