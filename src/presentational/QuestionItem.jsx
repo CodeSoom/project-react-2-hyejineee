@@ -14,19 +14,22 @@ export default function QuestionItem({
   category, question, options, onChange,
 }) {
   return (
-    <Box>
-      <div id={category}>
-        <h2>{question}</h2>
-        {options.map(({ id, option }) => (
-          <RadioInput
-            key={id}
-            id={id}
-            name={category}
-            value={option}
-            onChange={onChange}
-          />
-        ))}
-      </div>
-    </Box>
+    <>
+      <Box>
+        <div id={category}>
+          <h2>{question}</h2>
+          {options.map(({ id, option }) => (
+            <RadioInput
+              key={id}
+              id={id}
+              name={category}
+              value={option}
+              onChange={onChange}
+            />
+          ))}
+        </div>
+      </Box>
+    </>
+
   );
 }

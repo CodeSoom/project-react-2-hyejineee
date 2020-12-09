@@ -10,6 +10,7 @@ const initialState = {
   },
   courses: [],
   courseGPX: '',
+  selectedCourse: null,
 };
 
 const reducers = {
@@ -38,6 +39,13 @@ const reducers = {
       courseGPX,
     };
   },
+
+  selectedCourse(state, { payload: selectedCourse }) {
+    return {
+      ...state,
+      selectedCourse,
+    };
+  },
 };
 
 const { reducer, actions } = createSlice({
@@ -50,6 +58,7 @@ export const {
   selectOption,
   setCourses,
   setCourseGPX,
+  selectedCourse,
 } = actions;
 
 export function loadCourseGPX(courseId) {

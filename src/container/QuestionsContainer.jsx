@@ -15,5 +15,10 @@ export default function QuestionsContainer() {
     dispatch(selectOption({ name, value }));
   }
 
-  return (<Questions questions={questions} onChange={handleChange} />);
+  return (
+    <Questions
+      questions={questions}
+      onChange={handleChange}
+    />
+  );
 }

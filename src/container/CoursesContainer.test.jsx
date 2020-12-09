@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { render } from '@testing-library/react';
+import { fireEvent, render } from '@testing-library/react';
 
 import { useDispatch, useSelector } from 'react-redux';
 
@@ -56,5 +56,15 @@ describe('CoursesContainer', () => {
     renderCoursesContainer();
 
     expect(dispatch).toBeCalled();
+  });
+
+  describe('click map button of course item', () => {
+    it('calls selectedCourse action', () => {
+      const { getByRole } = renderCoursesContainer();
+
+      fireEvent.click(getByRole('button'));
+
+      expect(dispatch).toBeCalled();
+    });
   });
 });

@@ -4,7 +4,7 @@ Scenario('사용자는 선택한 옵션들을 볼 수 있습니다. ', ({ I }) =
   I.amOnPage('/result');
 
   I.see('서울');
-  I.see('초급자');
+  I.see('초보자');
   I.see('경치 구경하기');
   I.see('가을');
 });

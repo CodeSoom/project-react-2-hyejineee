@@ -3,7 +3,7 @@
     "version": "1.0.0",
     "description": "",
     "main": "index.js",
-    "homepage": "https://hyejineee.github.io/project-react-2-hyejineee/",
+    "homepage": "https://codesoom.github.io/project-react-2-hyejineee/",
     "scripts": {
         "start": "webpack-dev-server",
         "test:unit": "jest",

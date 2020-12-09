@@ -14,16 +14,19 @@ const parser = (str, mimeType) => new DOMParser().parseFromString(str, mimeType)
 
 const convertToXml = converter(parser)('text/xml');
 
-export default function CourseMapCotainer({ courseId }) {
+export default function CourseMapCotainer() {
   const dispatch = useDispatch();
 
-  const { courseGPX } = useSelector((state) => ({
+  const { courseGPX, selectedCourseId } = useSelector((state) => ({
     courseGPX: state.courseGPX,
+    selectedCourseId: state.selectedCourse,
   }));
 
   useEffect(async () => {
-    dispatch(loadCourseGPX(courseId));
-  }, []);
+    if (selectedCourseId !== null) {
+      dispatch(loadCourseGPX(selectedCourseId));
+    }
+  }, [selectedCourseId]);
 
   return (
     <RenderAfterNavermapsLoaded

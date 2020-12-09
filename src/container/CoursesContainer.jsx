@@ -2,11 +2,14 @@ import React, { useEffect } from 'react';
 
 import { useDispatch, useSelector } from 'react-redux';
 
-import { setCourses } from '_redux/slice';
+import {
+  setCourses,
+  selectedCourse,
+} from '_redux/slice';
 
 import { findClimbingCourses } from 'service/courses';
 
-import CourseItem from 'presentational/CourseItem';
+import Courses from '../presentational/Courses';
 
 export default function CoursesContainer() {
   const dispatch = useDispatch();
@@ -20,17 +23,11 @@ export default function CoursesContainer() {
     dispatch(setCourses(findClimbingCourses(selectedOptions)));
   }, [selectedOptions]);
 
-  if (courses.length <= 0) {
-    return (<p>등산 코스가 없어여ㅕㅕ</p>);
+  function handleClick(selectedCourseId) {
+    dispatch(selectedCourse(selectedCourseId));
   }
 
   return (
-    <div>
-      {
-        courses.map((course) => (
-          <CourseItem key={course.id} course={course} />
-        ))
-      }
-    </div>
+    <Courses courses={courses} onClick={handleClick} />
   );
 }
