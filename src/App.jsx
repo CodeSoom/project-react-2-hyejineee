@@ -10,9 +10,9 @@ export default function App() {
   return (
     <div>
       <Switch>
-        <Route exact path="/" component={HomePage} />
-        <Route path="/questions" component={QuestionPage} />
-        <Route path="/result" component={ResultPage} />
+        <Route exact path="/project-react-2-hyejineee" component={HomePage} />
+        <Route path="/project-react-2-hyejineee/questions" component={QuestionPage} />
+        <Route path="/project-react-2-hyejineee/result" component={ResultPage} />
       </Switch>
     </div>
   );
