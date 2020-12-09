@@ -1,6 +1,13 @@
 import React, { useEffect, useRef } from 'react';
 
+import styled from '@emotion/styled';
+
 import { NaverMap } from 'react-naver-maps';
+
+const Container = styled.div({
+  width: '50%',
+  flex: '1 0 50%',
+});
 
 export default function CourseMap({ courseGPX }) {
   const mapRef = useRef();
@@ -18,9 +25,11 @@ export default function CourseMap({ courseGPX }) {
   });
 
   return (
-    <NaverMap
-      naverRef={(ref) => { mapRef.current = ref; }}
-      style={{ width: '100%', height: '400px' }}
-    />
+    <Container>
+      <NaverMap
+        naverRef={(ref) => { mapRef.current = ref; }}
+        style={{ height: '100%' }}
+      />
+    </Container>
   );
 }
