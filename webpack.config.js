@@ -50,6 +50,7 @@ module.exports = {
       utils: path.resolve(__dirname, 'src/utils.js'),
       service: path.resolve(__dirname, 'src/service/'),
       page: path.resolve(__dirname, 'src/page/'),
+      asset: path.resolve(__dirname, 'src/asset/'),
     },
     extensions: ['.js', '.jsx'],
   },

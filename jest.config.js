@@ -19,6 +19,7 @@ module.exports = {
     '^data/(.*)': '<rootDir>/src/data/$1',
     '^service/(.*)': '<rootDir>/src/service/$1',
     '^page/(.*)': '<rootDir>/src/page/$1',
+    '^asset/(.*)': '<rootDir>/src/asset/$1',
     '^utils': '<rootDir>/src/utils.js',
     '\\.(gpx)$': '<rootDir>/__mocks__/fileMock.js',
   },
