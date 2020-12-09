@@ -51,6 +51,7 @@ module.exports = {
       service: path.resolve(__dirname, 'src/service/'),
       page: path.resolve(__dirname, 'src/page/'),
       asset: path.resolve(__dirname, 'src/asset/'),
+      style: path.resolve(__dirname, 'src/style/'),
     },
     extensions: ['.js', '.jsx'],
   },

@@ -6,14 +6,21 @@ import store from '_redux/store';
 
 import { Provider } from 'react-redux';
 
+import { ThemeProvider } from '@emotion/react';
+
 import { BrowserRouter } from 'react-router-dom';
+
+import theme from 'style/theme';
+
 import App from './App';
 
 ReactDOM.render(
   (
     <Provider store={store}>
       <BrowserRouter>
-        <App />
+        <ThemeProvider theme={theme}>
+          <App />
+        </ThemeProvider>
       </BrowserRouter>
     </Provider>
   ),
