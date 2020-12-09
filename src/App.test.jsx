@@ -5,6 +5,11 @@ import { render } from '@testing-library/react';
 import { useDispatch, useSelector } from 'react-redux';
 
 import { MemoryRouter } from 'react-router-dom';
+
+import { ThemeProvider } from '@emotion/react';
+
+import theme from 'style/theme';
+
 import App from './App';
 
 jest.mock('react-redux');
@@ -24,9 +29,11 @@ describe('App', () => {
 
   function renderApp({ path }) {
     return render(
-      <MemoryRouter initialEntries={[path]}>
-        <App />
-      </MemoryRouter>,
+      <ThemeProvider theme={theme}>
+        <MemoryRouter initialEntries={[path]}>
+          <App />
+        </MemoryRouter>
+      </ThemeProvider>,
     );
   }
 
