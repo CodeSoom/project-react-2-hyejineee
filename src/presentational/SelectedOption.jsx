@@ -1,6 +1,6 @@
 import React from 'react';
 
-export default function Option({ option }) {
+export default function SelectedOption({ option }) {
   return (
     <p>
       {option}

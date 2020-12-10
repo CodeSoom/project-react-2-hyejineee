@@ -77,7 +77,7 @@
 /******/ 	__webpack_require__.o = function(object, property) { return Object.prototype.hasOwnProperty.call(object, property); };
 /******/
 /******/ 	// __webpack_public_path__
-/******/ 	__webpack_require__.p = "";
+/******/ 	__webpack_require__.p = "/";
 /******/
 /******/
 /******/ 	// Load entry module and return exports
@@ -1263,6 +1263,66 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) *
 
 /***/ }),
 
+/***/ "./src/asset/image/activity/activity1.svg":
+/*!************************************************!*\
+  !*** ./src/asset/image/activity/activity1.svg ***!
+  \************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (\"./build/assets/images/activity1.svg\");\n\n//# sourceURL=webpack:///./src/asset/image/activity/activity1.svg?");
+
+/***/ }),
+
+/***/ "./src/asset/image/activity/activity2.png":
+/*!************************************************!*\
+  !*** ./src/asset/image/activity/activity2.png ***!
+  \************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (\"./build/assets/images/activity2.png\");\n\n//# sourceURL=webpack:///./src/asset/image/activity/activity2.png?");
+
+/***/ }),
+
+/***/ "./src/asset/image/activity/activity3.svg":
+/*!************************************************!*\
+  !*** ./src/asset/image/activity/activity3.svg ***!
+  \************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (\"./build/assets/images/activity3.svg\");\n\n//# sourceURL=webpack:///./src/asset/image/activity/activity3.svg?");
+
+/***/ }),
+
+/***/ "./src/asset/image/activity/activity4.svg":
+/*!************************************************!*\
+  !*** ./src/asset/image/activity/activity4.svg ***!
+  \************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (\"./build/assets/images/activity4.svg\");\n\n//# sourceURL=webpack:///./src/asset/image/activity/activity4.svg?");
+
+/***/ }),
+
+/***/ "./src/asset/image/activity/index.js":
+/*!*******************************************!*\
+  !*** ./src/asset/image/activity/index.js ***!
+  \*******************************************/
+/*! exports provided: activity1, activity2, activity3, activity4 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _activity1_svg__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./activity1.svg */ \"./src/asset/image/activity/activity1.svg\");\n/* harmony reexport (module object) */ __webpack_require__.d(__webpack_exports__, \"activity1\", function() { return _activity1_svg__WEBPACK_IMPORTED_MODULE_0__; });\n/* harmony import */ var _activity2_png__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./activity2.png */ \"./src/asset/image/activity/activity2.png\");\n/* harmony reexport (module object) */ __webpack_require__.d(__webpack_exports__, \"activity2\", function() { return _activity2_png__WEBPACK_IMPORTED_MODULE_1__; });\n/* harmony import */ var _activity3_svg__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./activity3.svg */ \"./src/asset/image/activity/activity3.svg\");\n/* harmony reexport (module object) */ __webpack_require__.d(__webpack_exports__, \"activity3\", function() { return _activity3_svg__WEBPACK_IMPORTED_MODULE_2__; });\n/* harmony import */ var _activity4_svg__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./activity4.svg */ \"./src/asset/image/activity/activity4.svg\");\n/* harmony reexport (module object) */ __webpack_require__.d(__webpack_exports__, \"activity4\", function() { return _activity4_svg__WEBPACK_IMPORTED_MODULE_3__; });\n\n\n\n\n\n\n\n\n\n//# sourceURL=webpack:///./src/asset/image/activity/index.js?");
+
+/***/ }),
+
 /***/ "./src/asset/image/background.png":
 /*!****************************************!*\
   !*** ./src/asset/image/background.png ***!
@@ -1271,7 +1331,331 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) *
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (\"./build//assets/images/background.png\");\n\n//# sourceURL=webpack:///./src/asset/image/background.png?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (\"./build/assets/images/background.png\");\n\n//# sourceURL=webpack:///./src/asset/image/background.png?");
+
+/***/ }),
+
+/***/ "./src/asset/image/index.js":
+/*!**********************************!*\
+  !*** ./src/asset/image/index.js ***!
+  \**********************************/
+/*! exports provided: season, activity, level, region */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _season__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./season */ \"./src/asset/image/season/index.js\");\n/* harmony reexport (module object) */ __webpack_require__.d(__webpack_exports__, \"season\", function() { return _season__WEBPACK_IMPORTED_MODULE_0__; });\n/* harmony import */ var _activity__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./activity */ \"./src/asset/image/activity/index.js\");\n/* harmony reexport (module object) */ __webpack_require__.d(__webpack_exports__, \"activity\", function() { return _activity__WEBPACK_IMPORTED_MODULE_1__; });\n/* harmony import */ var _level__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./level */ \"./src/asset/image/level/index.js\");\n/* harmony reexport (module object) */ __webpack_require__.d(__webpack_exports__, \"level\", function() { return _level__WEBPACK_IMPORTED_MODULE_2__; });\n/* harmony import */ var _region__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./region */ \"./src/asset/image/region/index.js\");\n/* harmony reexport (module object) */ __webpack_require__.d(__webpack_exports__, \"region\", function() { return _region__WEBPACK_IMPORTED_MODULE_3__; });\n\n\n\n\n\n\n\n\n\n//# sourceURL=webpack:///./src/asset/image/index.js?");
+
+/***/ }),
+
+/***/ "./src/asset/image/level/index.js":
+/*!****************************************!*\
+  !*** ./src/asset/image/level/index.js ***!
+  \****************************************/
+/*! exports provided: level1, level2, level3 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _level1_svg__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./level1.svg */ \"./src/asset/image/level/level1.svg\");\n/* harmony reexport (module object) */ __webpack_require__.d(__webpack_exports__, \"level1\", function() { return _level1_svg__WEBPACK_IMPORTED_MODULE_0__; });\n/* harmony import */ var _level2_svg__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./level2.svg */ \"./src/asset/image/level/level2.svg\");\n/* harmony reexport (module object) */ __webpack_require__.d(__webpack_exports__, \"level2\", function() { return _level2_svg__WEBPACK_IMPORTED_MODULE_1__; });\n/* harmony import */ var _level3_svg__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./level3.svg */ \"./src/asset/image/level/level3.svg\");\n/* harmony reexport (module object) */ __webpack_require__.d(__webpack_exports__, \"level3\", function() { return _level3_svg__WEBPACK_IMPORTED_MODULE_2__; });\n\n\n\n\n\n\n\n//# sourceURL=webpack:///./src/asset/image/level/index.js?");
+
+/***/ }),
+
+/***/ "./src/asset/image/level/level1.svg":
+/*!******************************************!*\
+  !*** ./src/asset/image/level/level1.svg ***!
+  \******************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (\"./build/assets/images/level1.svg\");\n\n//# sourceURL=webpack:///./src/asset/image/level/level1.svg?");
+
+/***/ }),
+
+/***/ "./src/asset/image/level/level2.svg":
+/*!******************************************!*\
+  !*** ./src/asset/image/level/level2.svg ***!
+  \******************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (\"./build/assets/images/level2.svg\");\n\n//# sourceURL=webpack:///./src/asset/image/level/level2.svg?");
+
+/***/ }),
+
+/***/ "./src/asset/image/level/level3.svg":
+/*!******************************************!*\
+  !*** ./src/asset/image/level/level3.svg ***!
+  \******************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (\"./build/assets/images/level3.svg\");\n\n//# sourceURL=webpack:///./src/asset/image/level/level3.svg?");
+
+/***/ }),
+
+/***/ "./src/asset/image/region/index.js":
+/*!*****************************************!*\
+  !*** ./src/asset/image/region/index.js ***!
+  \*****************************************/
+/*! exports provided: region1, region2, region3, region4, region5, region6, region7, region8, region9, region10, region11, region12, region13, region14, region15, region16 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _region1_svg__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./region1.svg */ \"./src/asset/image/region/region1.svg\");\n/* harmony reexport (module object) */ __webpack_require__.d(__webpack_exports__, \"region1\", function() { return _region1_svg__WEBPACK_IMPORTED_MODULE_0__; });\n/* harmony import */ var _region2_svg__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./region2.svg */ \"./src/asset/image/region/region2.svg\");\n/* harmony reexport (module object) */ __webpack_require__.d(__webpack_exports__, \"region2\", function() { return _region2_svg__WEBPACK_IMPORTED_MODULE_1__; });\n/* harmony import */ var _region3_svg__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./region3.svg */ \"./src/asset/image/region/region3.svg\");\n/* harmony reexport (module object) */ __webpack_require__.d(__webpack_exports__, \"region3\", function() { return _region3_svg__WEBPACK_IMPORTED_MODULE_2__; });\n/* harmony import */ var _region4_svg__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./region4.svg */ \"./src/asset/image/region/region4.svg\");\n/* harmony reexport (module object) */ __webpack_require__.d(__webpack_exports__, \"region4\", function() { return _region4_svg__WEBPACK_IMPORTED_MODULE_3__; });\n/* harmony import */ var _region5_svg__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./region5.svg */ \"./src/asset/image/region/region5.svg\");\n/* harmony reexport (module object) */ __webpack_require__.d(__webpack_exports__, \"region5\", function() { return _region5_svg__WEBPACK_IMPORTED_MODULE_4__; });\n/* harmony import */ var _region6_svg__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./region6.svg */ \"./src/asset/image/region/region6.svg\");\n/* harmony reexport (module object) */ __webpack_require__.d(__webpack_exports__, \"region6\", function() { return _region6_svg__WEBPACK_IMPORTED_MODULE_5__; });\n/* harmony import */ var _region7_svg__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./region7.svg */ \"./src/asset/image/region/region7.svg\");\n/* harmony reexport (module object) */ __webpack_require__.d(__webpack_exports__, \"region7\", function() { return _region7_svg__WEBPACK_IMPORTED_MODULE_6__; });\n/* harmony import */ var _region8_svg__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./region8.svg */ \"./src/asset/image/region/region8.svg\");\n/* harmony reexport (module object) */ __webpack_require__.d(__webpack_exports__, \"region8\", function() { return _region8_svg__WEBPACK_IMPORTED_MODULE_7__; });\n/* harmony import */ var _region9_svg__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./region9.svg */ \"./src/asset/image/region/region9.svg\");\n/* harmony reexport (module object) */ __webpack_require__.d(__webpack_exports__, \"region9\", function() { return _region9_svg__WEBPACK_IMPORTED_MODULE_8__; });\n/* harmony import */ var _region10_svg__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./region10.svg */ \"./src/asset/image/region/region10.svg\");\n/* harmony reexport (module object) */ __webpack_require__.d(__webpack_exports__, \"region10\", function() { return _region10_svg__WEBPACK_IMPORTED_MODULE_9__; });\n/* harmony import */ var _region11_svg__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./region11.svg */ \"./src/asset/image/region/region11.svg\");\n/* harmony reexport (module object) */ __webpack_require__.d(__webpack_exports__, \"region11\", function() { return _region11_svg__WEBPACK_IMPORTED_MODULE_10__; });\n/* harmony import */ var _region12_svg__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ./region12.svg */ \"./src/asset/image/region/region12.svg\");\n/* harmony reexport (module object) */ __webpack_require__.d(__webpack_exports__, \"region12\", function() { return _region12_svg__WEBPACK_IMPORTED_MODULE_11__; });\n/* harmony import */ var _region13_svg__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ./region13.svg */ \"./src/asset/image/region/region13.svg\");\n/* harmony reexport (module object) */ __webpack_require__.d(__webpack_exports__, \"region13\", function() { return _region13_svg__WEBPACK_IMPORTED_MODULE_12__; });\n/* harmony import */ var _region14_svg__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ./region14.svg */ \"./src/asset/image/region/region14.svg\");\n/* harmony reexport (module object) */ __webpack_require__.d(__webpack_exports__, \"region14\", function() { return _region14_svg__WEBPACK_IMPORTED_MODULE_13__; });\n/* harmony import */ var _region15_svg__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ./region15.svg */ \"./src/asset/image/region/region15.svg\");\n/* harmony reexport (module object) */ __webpack_require__.d(__webpack_exports__, \"region15\", function() { return _region15_svg__WEBPACK_IMPORTED_MODULE_14__; });\n/* harmony import */ var _region16_svg__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! ./region16.svg */ \"./src/asset/image/region/region16.svg\");\n/* harmony reexport (module object) */ __webpack_require__.d(__webpack_exports__, \"region16\", function() { return _region16_svg__WEBPACK_IMPORTED_MODULE_15__; });\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n//# sourceURL=webpack:///./src/asset/image/region/index.js?");
+
+/***/ }),
+
+/***/ "./src/asset/image/region/region1.svg":
+/*!********************************************!*\
+  !*** ./src/asset/image/region/region1.svg ***!
+  \********************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (\"./build/assets/images/region1.svg\");\n\n//# sourceURL=webpack:///./src/asset/image/region/region1.svg?");
+
+/***/ }),
+
+/***/ "./src/asset/image/region/region10.svg":
+/*!*********************************************!*\
+  !*** ./src/asset/image/region/region10.svg ***!
+  \*********************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (\"./build/assets/images/region10.svg\");\n\n//# sourceURL=webpack:///./src/asset/image/region/region10.svg?");
+
+/***/ }),
+
+/***/ "./src/asset/image/region/region11.svg":
+/*!*********************************************!*\
+  !*** ./src/asset/image/region/region11.svg ***!
+  \*********************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (\"./build/assets/images/region11.svg\");\n\n//# sourceURL=webpack:///./src/asset/image/region/region11.svg?");
+
+/***/ }),
+
+/***/ "./src/asset/image/region/region12.svg":
+/*!*********************************************!*\
+  !*** ./src/asset/image/region/region12.svg ***!
+  \*********************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (\"./build/assets/images/region12.svg\");\n\n//# sourceURL=webpack:///./src/asset/image/region/region12.svg?");
+
+/***/ }),
+
+/***/ "./src/asset/image/region/region13.svg":
+/*!*********************************************!*\
+  !*** ./src/asset/image/region/region13.svg ***!
+  \*********************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (\"./build/assets/images/region13.svg\");\n\n//# sourceURL=webpack:///./src/asset/image/region/region13.svg?");
+
+/***/ }),
+
+/***/ "./src/asset/image/region/region14.svg":
+/*!*********************************************!*\
+  !*** ./src/asset/image/region/region14.svg ***!
+  \*********************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (\"./build/assets/images/region14.svg\");\n\n//# sourceURL=webpack:///./src/asset/image/region/region14.svg?");
+
+/***/ }),
+
+/***/ "./src/asset/image/region/region15.svg":
+/*!*********************************************!*\
+  !*** ./src/asset/image/region/region15.svg ***!
+  \*********************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (\"./build/assets/images/region15.svg\");\n\n//# sourceURL=webpack:///./src/asset/image/region/region15.svg?");
+
+/***/ }),
+
+/***/ "./src/asset/image/region/region16.svg":
+/*!*********************************************!*\
+  !*** ./src/asset/image/region/region16.svg ***!
+  \*********************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (\"./build/assets/images/region16.svg\");\n\n//# sourceURL=webpack:///./src/asset/image/region/region16.svg?");
+
+/***/ }),
+
+/***/ "./src/asset/image/region/region2.svg":
+/*!********************************************!*\
+  !*** ./src/asset/image/region/region2.svg ***!
+  \********************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (\"./build/assets/images/region2.svg\");\n\n//# sourceURL=webpack:///./src/asset/image/region/region2.svg?");
+
+/***/ }),
+
+/***/ "./src/asset/image/region/region3.svg":
+/*!********************************************!*\
+  !*** ./src/asset/image/region/region3.svg ***!
+  \********************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (\"./build/assets/images/region3.svg\");\n\n//# sourceURL=webpack:///./src/asset/image/region/region3.svg?");
+
+/***/ }),
+
+/***/ "./src/asset/image/region/region4.svg":
+/*!********************************************!*\
+  !*** ./src/asset/image/region/region4.svg ***!
+  \********************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (\"./build/assets/images/region4.svg\");\n\n//# sourceURL=webpack:///./src/asset/image/region/region4.svg?");
+
+/***/ }),
+
+/***/ "./src/asset/image/region/region5.svg":
+/*!********************************************!*\
+  !*** ./src/asset/image/region/region5.svg ***!
+  \********************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (\"./build/assets/images/region5.svg\");\n\n//# sourceURL=webpack:///./src/asset/image/region/region5.svg?");
+
+/***/ }),
+
+/***/ "./src/asset/image/region/region6.svg":
+/*!********************************************!*\
+  !*** ./src/asset/image/region/region6.svg ***!
+  \********************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (\"./build/assets/images/region6.svg\");\n\n//# sourceURL=webpack:///./src/asset/image/region/region6.svg?");
+
+/***/ }),
+
+/***/ "./src/asset/image/region/region7.svg":
+/*!********************************************!*\
+  !*** ./src/asset/image/region/region7.svg ***!
+  \********************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (\"./build/assets/images/region7.svg\");\n\n//# sourceURL=webpack:///./src/asset/image/region/region7.svg?");
+
+/***/ }),
+
+/***/ "./src/asset/image/region/region8.svg":
+/*!********************************************!*\
+  !*** ./src/asset/image/region/region8.svg ***!
+  \********************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (\"./build/assets/images/region8.svg\");\n\n//# sourceURL=webpack:///./src/asset/image/region/region8.svg?");
+
+/***/ }),
+
+/***/ "./src/asset/image/region/region9.svg":
+/*!********************************************!*\
+  !*** ./src/asset/image/region/region9.svg ***!
+  \********************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (\"./build/assets/images/region9.svg\");\n\n//# sourceURL=webpack:///./src/asset/image/region/region9.svg?");
+
+/***/ }),
+
+/***/ "./src/asset/image/season/index.js":
+/*!*****************************************!*\
+  !*** ./src/asset/image/season/index.js ***!
+  \*****************************************/
+/*! exports provided: season1, season2, season3, season4 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _season1_svg__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./season1.svg */ \"./src/asset/image/season/season1.svg\");\n/* harmony reexport (module object) */ __webpack_require__.d(__webpack_exports__, \"season1\", function() { return _season1_svg__WEBPACK_IMPORTED_MODULE_0__; });\n/* harmony import */ var _season2_svg__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./season2.svg */ \"./src/asset/image/season/season2.svg\");\n/* harmony reexport (module object) */ __webpack_require__.d(__webpack_exports__, \"season2\", function() { return _season2_svg__WEBPACK_IMPORTED_MODULE_1__; });\n/* harmony import */ var _season3_svg__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./season3.svg */ \"./src/asset/image/season/season3.svg\");\n/* harmony reexport (module object) */ __webpack_require__.d(__webpack_exports__, \"season3\", function() { return _season3_svg__WEBPACK_IMPORTED_MODULE_2__; });\n/* harmony import */ var _season4_svg__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./season4.svg */ \"./src/asset/image/season/season4.svg\");\n/* harmony reexport (module object) */ __webpack_require__.d(__webpack_exports__, \"season4\", function() { return _season4_svg__WEBPACK_IMPORTED_MODULE_3__; });\n\n\n\n\n\n\n\n\n\n//# sourceURL=webpack:///./src/asset/image/season/index.js?");
+
+/***/ }),
+
+/***/ "./src/asset/image/season/season1.svg":
+/*!********************************************!*\
+  !*** ./src/asset/image/season/season1.svg ***!
+  \********************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (\"./build/assets/images/season1.svg\");\n\n//# sourceURL=webpack:///./src/asset/image/season/season1.svg?");
+
+/***/ }),
+
+/***/ "./src/asset/image/season/season2.svg":
+/*!********************************************!*\
+  !*** ./src/asset/image/season/season2.svg ***!
+  \********************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (\"./build/assets/images/season2.svg\");\n\n//# sourceURL=webpack:///./src/asset/image/season/season2.svg?");
+
+/***/ }),
+
+/***/ "./src/asset/image/season/season3.svg":
+/*!********************************************!*\
+  !*** ./src/asset/image/season/season3.svg ***!
+  \********************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (\"./build/assets/images/season3.svg\");\n\n//# sourceURL=webpack:///./src/asset/image/season/season3.svg?");
+
+/***/ }),
+
+/***/ "./src/asset/image/season/season4.svg":
+/*!********************************************!*\
+  !*** ./src/asset/image/season/season4.svg ***!
+  \********************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (\"./build/assets/images/season4.svg\");\n\n//# sourceURL=webpack:///./src/asset/image/season/season4.svg?");
 
 /***/ }),
 
@@ -1367,7 +1751,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ 
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\nconst questions = [{\n  id: 1,\n  category: 'region',\n  question: '지역을 선택해 주세요.',\n  options: [{\n    id: 1,\n    option: '서울'\n  }, {\n    id: 2,\n    option: '부산'\n  }, {\n    id: 3,\n    option: '대구'\n  }, {\n    id: 4,\n    option: '인천'\n  }, {\n    id: 5,\n    option: '광주'\n  }, {\n    id: 6,\n    option: '대전'\n  }, {\n    id: 7,\n    option: '울산'\n  }, {\n    id: 8,\n    option: '제주도'\n  }, {\n    id: 9,\n    option: '경기도'\n  }, {\n    id: 10,\n    option: '강원도'\n  }, {\n    id: 11,\n    option: '충청북도'\n  }, {\n    id: 12,\n    option: '충청남도'\n  }, {\n    id: 13,\n    option: '전라북도'\n  }, {\n    id: 14,\n    option: '전라남도'\n  }, {\n    id: 15,\n    option: '경상북도'\n  }, {\n    id: 16,\n    option: '경상남도'\n  }]\n}, {\n  id: 2,\n  category: 'climbingLevel',\n  question: '나의 등산 실력은 어느 정도인가요?',\n  options: [{\n    id: 1,\n    option: '초보자'\n  }, {\n    id: 2,\n    option: '중급자'\n  }, {\n    id: 3,\n    option: '상급자'\n  }]\n}, {\n  id: 3,\n  category: 'season',\n  question: '어떤 계절의 산을 원하나요?',\n  options: [{\n    id: 1,\n    option: '봄'\n  }, {\n    id: 2,\n    option: '여름'\n  }, {\n    id: 3,\n    option: '가을'\n  }, {\n    id: 4,\n    option: '겨울'\n  }]\n}, {\n  id: 4,\n  category: 'activity',\n  question: '산에서 무엇을 하고 싶으세요?',\n  options: [{\n    id: 1,\n    option: '열심히 등산하기'\n  }, {\n    id: 2,\n    option: '경치 구경하기'\n  }, {\n    id: 3,\n    option: '금강산도 식후경'\n  }, {\n    id: 4,\n    option: '술에 취하기'\n  }]\n}];\n/* harmony default export */ __webpack_exports__[\"default\"] = (questions);\n\n//# sourceURL=webpack:///./src/data/questions.js?");
+eval("__webpack_require__.r(__webpack_exports__);\nconst questions = [{\n  id: 1,\n  category: 'region',\n  question: '지역을 선택해 주세요.',\n  sub: '등산 예정인 지역을 선택해주세요.',\n  options: [{\n    id: 1,\n    option: '서울'\n  }, {\n    id: 2,\n    option: '부산'\n  }, {\n    id: 3,\n    option: '대구'\n  }, {\n    id: 4,\n    option: '인천'\n  }, {\n    id: 5,\n    option: '광주'\n  }, {\n    id: 6,\n    option: '대전'\n  }, {\n    id: 7,\n    option: '울산'\n  }, {\n    id: 8,\n    option: '제주도'\n  }, {\n    id: 9,\n    option: '경기도'\n  }, {\n    id: 10,\n    option: '강원도'\n  }, {\n    id: 11,\n    option: '충청북도'\n  }, {\n    id: 12,\n    option: '충청남도'\n  }, {\n    id: 13,\n    option: '전라북도'\n  }, {\n    id: 14,\n    option: '전라남도'\n  }, {\n    id: 15,\n    option: '경상북도'\n  }, {\n    id: 16,\n    option: '경상남도'\n  }]\n}, {\n  id: 2,\n  category: 'level',\n  question: '나의 등산 실력은 어느 정도인가요?',\n  sub: '등산을 즐기고 싶은 난이도를 선택해주세요.',\n  options: [{\n    id: 1,\n    option: '초보자'\n  }, {\n    id: 2,\n    option: '중급자'\n  }, {\n    id: 3,\n    option: '상급자'\n  }]\n}, {\n  id: 3,\n  category: 'season',\n  question: '어떤 계절의 산을 원하나요?',\n  sub: '등산 가고 싶은 계절을 선택해주세요.',\n  options: [{\n    id: 1,\n    option: '봄'\n  }, {\n    id: 2,\n    option: '여름'\n  }, {\n    id: 3,\n    option: '가을'\n  }, {\n    id: 4,\n    option: '겨울'\n  }]\n}, {\n  id: 4,\n  category: 'activity',\n  question: '산에서 무엇을 하고 싶으세요?',\n  sub: '등산 후 맛집 탐방, 사진 촬영 등 등산의 목적을 선택해주세요.',\n  options: [{\n    id: 1,\n    option: '열심히 등산하기'\n  }, {\n    id: 2,\n    option: '경치 구경하기'\n  }, {\n    id: 3,\n    option: '금강산도 식후경'\n  }, {\n    id: 4,\n    option: '술에 취하기'\n  }]\n}];\n/* harmony default export */ __webpack_exports__[\"default\"] = (questions);\n\n//# sourceURL=webpack:///./src/data/questions.js?");
 
 /***/ }),
 
@@ -1379,7 +1763,7 @@ eval("__webpack_require__.r(__webpack_exports__);\nconst questions = [{\n  id: 1
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var react_dom__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-dom */ \"./node_modules/react-dom/index.js\");\n/* harmony import */ var react_dom__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react_dom__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var _redux_store__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! _redux/store */ \"./src/redux/store.js\");\n/* harmony import */ var react_redux__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! react-redux */ \"./node_modules/react-redux/es/index.js\");\n/* harmony import */ var _emotion_react__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @emotion/react */ \"./node_modules/@emotion/react/dist/emotion-react.browser.esm.js\");\n/* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! react-router-dom */ \"./node_modules/react-router-dom/esm/react-router-dom.js\");\n/* harmony import */ var style_theme__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! style/theme */ \"./src/style/theme.js\");\n/* harmony import */ var _App__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./App */ \"./src/App.jsx\");\n\n\n\n\n\n\n\n\nreact_dom__WEBPACK_IMPORTED_MODULE_1___default.a.render( /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_redux__WEBPACK_IMPORTED_MODULE_3__[\"Provider\"], {\n  store: _redux_store__WEBPACK_IMPORTED_MODULE_2__[\"default\"]\n}, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_5__[\"BrowserRouter\"], {\n  basename: \"/project-react-2-hyejineee\"\n}, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_emotion_react__WEBPACK_IMPORTED_MODULE_4__[\"ThemeProvider\"], {\n  theme: style_theme__WEBPACK_IMPORTED_MODULE_6__[\"default\"]\n}, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_App__WEBPACK_IMPORTED_MODULE_7__[\"default\"], null)))), document.getElementById('app'));\n\n//# sourceURL=webpack:///./src/index.jsx?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var react_dom__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-dom */ \"./node_modules/react-dom/index.js\");\n/* harmony import */ var react_dom__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react_dom__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var _redux_store__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! _redux/store */ \"./src/redux/store.js\");\n/* harmony import */ var react_redux__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! react-redux */ \"./node_modules/react-redux/es/index.js\");\n/* harmony import */ var _emotion_react__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @emotion/react */ \"./node_modules/@emotion/react/dist/emotion-react.browser.esm.js\");\n/* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! react-router-dom */ \"./node_modules/react-router-dom/esm/react-router-dom.js\");\n/* harmony import */ var style_theme__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! style/theme */ \"./src/style/theme.js\");\n/* harmony import */ var _App__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./App */ \"./src/App.jsx\");\n\n\n\n\n\n\n\n\nreact_dom__WEBPACK_IMPORTED_MODULE_1___default.a.render( /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_redux__WEBPACK_IMPORTED_MODULE_3__[\"Provider\"], {\n  store: _redux_store__WEBPACK_IMPORTED_MODULE_2__[\"default\"]\n}, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_5__[\"BrowserRouter\"], null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_emotion_react__WEBPACK_IMPORTED_MODULE_4__[\"ThemeProvider\"], {\n  theme: style_theme__WEBPACK_IMPORTED_MODULE_6__[\"default\"]\n}, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_App__WEBPACK_IMPORTED_MODULE_7__[\"default\"], null)))), document.getElementById('app'));\n\n//# sourceURL=webpack:///./src/index.jsx?");
 
 /***/ }),
 
@@ -1391,7 +1775,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var reac
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"default\", function() { return HomePage; });\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-router-dom */ \"./node_modules/react-router-dom/esm/react-router-dom.js\");\n/* harmony import */ var _emotion_styled__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @emotion/styled */ \"./node_modules/@emotion/styled/dist/emotion-styled.browser.esm.js\");\n/* harmony import */ var style_Context__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! style/Context */ \"./src/style/Context.js\");\n/* harmony import */ var asset_image_background_png__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! asset/image/background.png */ \"./src/asset/image/background.png\");\n\n\n\n\n\nconst Container = _emotion_styled__WEBPACK_IMPORTED_MODULE_2__[\"default\"].div(() => ({\n  'height': '100vh',\n  'boxSizing': 'border-box',\n  'backgroundImage': `url(${asset_image_background_png__WEBPACK_IMPORTED_MODULE_4__[\"default\"]})`,\n  'backgroundRepeat': 'no-repeat',\n  'backgroundSize': 'auto 90%',\n  'backgroundPosition': 'right bottom'\n}));\nconst ContentsBox = _emotion_styled__WEBPACK_IMPORTED_MODULE_2__[\"default\"].div(({\n  theme\n}) => ({\n  'position': 'absolute',\n  'marginTop': '12rem',\n  'marginLeft': '10rem',\n  '& p': {\n    marginTop: '2.3rem',\n    marginBottom: '23rem'\n  },\n  '& a': {\n    font: theme.typos.xl,\n    color: theme.colors.main\n  }\n}));\nconst Title = _emotion_styled__WEBPACK_IMPORTED_MODULE_2__[\"default\"].h1(({\n  theme\n}) => ({\n  font: theme.typos.l,\n  color: theme.colors.main\n}));\nfunction HomePage() {\n  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Container, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(ContentsBox, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Title, null, \"\\uB2F9\\uC2E0\\uB9CC\\uC758 \\uB4F1\\uC0B0\\uB85C\\uB97C \\uCC3E\\uC544\\uB4DC\\uB9BD\\uB2C8\\uB2E4!\"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(style_Context__WEBPACK_IMPORTED_MODULE_3__[\"default\"], null, \"\\uB098\\uC5D0\\uAC8C \\uB9DE\\uB294 \\uB4F1\\uC0B0\\uB85C\\uB294 \\uC5B4\\uB514\\uC5D0 \\uC788\\uC744\\uAE4C\\uC694?\", ' ', /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"br\", null), \"\\uB098\\uC758 \\uB4F1\\uC0B0 \\uC2E4\\uB825, \\uB4F1\\uC0B0\\uC758 \\uBAA9\\uC801, \\uADF8\\uB9AC\\uACE0 \\uB4F1\\uC0B0\\uC744 \\uC6D0\\uD558\\uB294 \\uACC4\\uC808\\uAE4C\\uC9C0\", ' ', /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"br\", null), \"\\uAC04\\uD3B8\\uD558\\uAC8C \\uC120\\uD0DD\\uD558\\uACE0 \\uC5EC\\uAE30\\uC800\\uAE30 \\uC228\\uACA8\\uC9C4 \\uB098\\uB9CC\\uC758 \\uB4F1\\uC0B0\\uB85C\\uB97C \\uCC3E\\uC544\\uBCF4\\uC138\\uC694!\", ' ', /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"br\", null)), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__[\"Link\"], {\n    to: \"/questions\"\n  }, \"Start\")));\n}\n\n//# sourceURL=webpack:///./src/page/HomePage.jsx?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"default\", function() { return HomePage; });\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-router-dom */ \"./node_modules/react-router-dom/esm/react-router-dom.js\");\n/* harmony import */ var _emotion_styled__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @emotion/styled */ \"./node_modules/@emotion/styled/dist/emotion-styled.browser.esm.js\");\n/* harmony import */ var style_Context__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! style/Context */ \"./src/style/Context.js\");\n/* harmony import */ var asset_image_background_png__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! asset/image/background.png */ \"./src/asset/image/background.png\");\n\n\n\n\n\nconst Container = _emotion_styled__WEBPACK_IMPORTED_MODULE_2__[\"default\"].div(() => ({\n  'height': '100vh',\n  'boxSizing': 'border-box',\n  'backgroundImage': `url(${asset_image_background_png__WEBPACK_IMPORTED_MODULE_4__[\"default\"]})`,\n  'backgroundRepeat': 'no-repeat',\n  'backgroundSize': 'auto 85%',\n  'backgroundPosition': 'right bottom'\n}));\nconst ContentsBox = _emotion_styled__WEBPACK_IMPORTED_MODULE_2__[\"default\"].div(({\n  theme\n}) => ({\n  'position': 'absolute',\n  'marginTop': '12rem',\n  'marginLeft': '10rem',\n  '& p': {\n    marginTop: '2.3rem',\n    marginBottom: '23rem'\n  },\n  '& a': {\n    font: theme.typos.xl,\n    color: theme.colors.main\n  }\n}));\nconst Title = _emotion_styled__WEBPACK_IMPORTED_MODULE_2__[\"default\"].h1(({\n  theme\n}) => ({\n  font: theme.typos.l,\n  color: theme.colors.main\n}));\nfunction HomePage() {\n  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Container, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(ContentsBox, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Title, null, \"\\uB2F9\\uC2E0\\uB9CC\\uC758 \\uB4F1\\uC0B0\\uB85C\\uB97C \\uCC3E\\uC544\\uB4DC\\uB9BD\\uB2C8\\uB2E4!\"), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(style_Context__WEBPACK_IMPORTED_MODULE_3__[\"default\"], null, \"\\uB098\\uC5D0\\uAC8C \\uB9DE\\uB294 \\uB4F1\\uC0B0\\uB85C\\uB294 \\uC5B4\\uB514\\uC5D0 \\uC788\\uC744\\uAE4C\\uC694?\", ' ', /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"br\", null), \"\\uB098\\uC758 \\uB4F1\\uC0B0 \\uC2E4\\uB825, \\uB4F1\\uC0B0\\uC758 \\uBAA9\\uC801, \\uADF8\\uB9AC\\uACE0 \\uB4F1\\uC0B0\\uC744 \\uC6D0\\uD558\\uB294 \\uACC4\\uC808\\uAE4C\\uC9C0\", ' ', /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"br\", null), \"\\uAC04\\uD3B8\\uD558\\uAC8C \\uC120\\uD0DD\\uD558\\uACE0 \\uC5EC\\uAE30\\uC800\\uAE30 \\uC228\\uACA8\\uC9C4 \\uB098\\uB9CC\\uC758 \\uB4F1\\uC0B0\\uB85C\\uB97C \\uCC3E\\uC544\\uBCF4\\uC138\\uC694!\", ' ', /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"br\", null)), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__[\"Link\"], {\n    to: \"/questions\"\n  }, \"Start\")));\n}\n\n//# sourceURL=webpack:///./src/page/HomePage.jsx?");
 
 /***/ }),
 
@@ -1467,15 +1851,15 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) *
 
 /***/ }),
 
-/***/ "./src/presentational/Option.jsx":
-/*!***************************************!*\
-  !*** ./src/presentational/Option.jsx ***!
-  \***************************************/
+/***/ "./src/presentational/Options.jsx":
+/*!****************************************!*\
+  !*** ./src/presentational/Options.jsx ***!
+  \****************************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"default\", function() { return Option; });\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);\n\nfunction Option({\n  option\n}) {\n  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"p\", null, option);\n}\n\n//# sourceURL=webpack:///./src/presentational/Option.jsx?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"default\", function() { return Options; });\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _emotion_styled__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @emotion/styled */ \"./node_modules/@emotion/styled/dist/emotion-styled.browser.esm.js\");\n/* harmony import */ var presentational_RadioInput__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! presentational/RadioInput */ \"./src/presentational/RadioInput.jsx\");\n\n\n\nconst Container = _emotion_styled__WEBPACK_IMPORTED_MODULE_1__[\"default\"].div({\n  display: 'flex',\n  alignItems: 'stretch',\n  margin: '0 auto',\n  justifyContent: 'space-around',\n  marginTop: '9.25rem'\n});\nfunction Options({\n  options,\n  category,\n  onChange\n}) {\n  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Container, null, options.map(({\n    id,\n    option\n  }) => /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(presentational_RadioInput__WEBPACK_IMPORTED_MODULE_2__[\"default\"], {\n    key: id,\n    id: id,\n    name: category,\n    value: option,\n    onChange: onChange\n  })));\n}\n\n//# sourceURL=webpack:///./src/presentational/Options.jsx?");
 
 /***/ }),
 
@@ -1487,7 +1871,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) *
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"default\", function() { return QuestionItem; });\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _emotion_styled__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @emotion/styled */ \"./node_modules/@emotion/styled/dist/emotion-styled.browser.esm.js\");\n/* harmony import */ var presentational_RadioInput__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! presentational/RadioInput */ \"./src/presentational/RadioInput.jsx\");\n\n\n\nconst Box = _emotion_styled__WEBPACK_IMPORTED_MODULE_1__[\"default\"].div({\n  flex: '1 0 100%',\n  height: '90%',\n  scrollSnapAlign: 'start'\n});\nfunction QuestionItem({\n  category,\n  question,\n  options,\n  onChange\n}) {\n  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Box, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"div\", {\n    id: category\n  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"h2\", null, question), options.map(({\n    id,\n    option\n  }) => /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(presentational_RadioInput__WEBPACK_IMPORTED_MODULE_2__[\"default\"], {\n    key: id,\n    id: id,\n    name: category,\n    value: option,\n    onChange: onChange\n  })))));\n}\n\n//# sourceURL=webpack:///./src/presentational/QuestionItem.jsx?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"default\", function() { return QuestionItem; });\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _emotion_styled__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @emotion/styled */ \"./node_modules/@emotion/styled/dist/emotion-styled.browser.esm.js\");\n/* harmony import */ var style_Context__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! style/Context */ \"./src/style/Context.js\");\n/* harmony import */ var style_QuestionTitle__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! style/QuestionTitle */ \"./src/style/QuestionTitle.js\");\n/* harmony import */ var presentational_Options__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! presentational/Options */ \"./src/presentational/Options.jsx\");\n\n\n\n\n\nconst Box = _emotion_styled__WEBPACK_IMPORTED_MODULE_1__[\"default\"].div({\n  boxSizing: 'border-box',\n  padding: '1.8rem 11rem',\n  flex: '1 0 100%',\n  height: '90%',\n  scrollSnapAlign: 'start'\n});\nfunction QuestionItem({\n  question: {\n    category,\n    question,\n    options,\n    sub\n  },\n  onChange\n}) {\n  const Option = () => {\n    if (category === 'region') {\n      return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"div\", null);\n    }\n\n    return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(presentational_Options__WEBPACK_IMPORTED_MODULE_4__[\"default\"], {\n      options: options,\n      category: category,\n      onChange: onChange\n    });\n  };\n\n  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Box, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"div\", {\n    id: category\n  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(style_QuestionTitle__WEBPACK_IMPORTED_MODULE_3__[\"default\"], null, question), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(style_Context__WEBPACK_IMPORTED_MODULE_2__[\"default\"], null, sub), Option()));\n}\n\n//# sourceURL=webpack:///./src/presentational/QuestionItem.jsx?");
 
 /***/ }),
 
@@ -1499,7 +1883,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) *
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"default\", function() { return Questions; });\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _emotion_styled__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @emotion/styled */ \"./node_modules/@emotion/styled/dist/emotion-styled.browser.esm.js\");\n/* harmony import */ var presentational_QuestionItem__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! presentational/QuestionItem */ \"./src/presentational/QuestionItem.jsx\");\n\n\n\nconst Container = _emotion_styled__WEBPACK_IMPORTED_MODULE_1__[\"default\"].div({\n  width: '100%',\n  height: '90%',\n  display: 'flex',\n  whiteSpace: 'nowrap',\n  overflowX: 'scroll',\n  scrollBehavior: 'smooth',\n  scrollSnapType: 'x mandatory',\n  scrollbarWidth: 'none'\n});\nconst Layout = _emotion_styled__WEBPACK_IMPORTED_MODULE_1__[\"default\"].div({\n  height: '100vh',\n  width: '100%'\n});\nfunction Questions({\n  questions,\n  onChange\n}) {\n  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Layout, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Container, null, questions.map(({\n    id,\n    category,\n    question,\n    options\n  }) => /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(presentational_QuestionItem__WEBPACK_IMPORTED_MODULE_2__[\"default\"], {\n    key: id,\n    category: category,\n    question: question,\n    options: options,\n    onChange: onChange\n  }))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"div\", null, \"timeline\"));\n}\n\n//# sourceURL=webpack:///./src/presentational/Questions.jsx?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"default\", function() { return Questions; });\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _emotion_styled__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @emotion/styled */ \"./node_modules/@emotion/styled/dist/emotion-styled.browser.esm.js\");\n/* harmony import */ var presentational_QuestionItem__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! presentational/QuestionItem */ \"./src/presentational/QuestionItem.jsx\");\n\n\n\nconst Container = _emotion_styled__WEBPACK_IMPORTED_MODULE_1__[\"default\"].div({\n  width: '100%',\n  height: '90%',\n  display: 'flex',\n  whiteSpace: 'nowrap',\n  overflowX: 'scroll',\n  scrollBehavior: 'smooth',\n  scrollSnapType: 'x mandatory',\n  scrollbarWidth: 'none'\n});\nconst Layout = _emotion_styled__WEBPACK_IMPORTED_MODULE_1__[\"default\"].div({\n  height: '100vh',\n  width: '100%'\n});\nfunction Questions({\n  questions,\n  onChange\n}) {\n  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Layout, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Container, null, questions.map(question => /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(presentational_QuestionItem__WEBPACK_IMPORTED_MODULE_2__[\"default\"], {\n    key: question.id,\n    question: question,\n    onChange: onChange\n  }))), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"div\", null, \"timeline\"));\n}\n\n//# sourceURL=webpack:///./src/presentational/Questions.jsx?");
 
 /***/ }),
 
@@ -1511,7 +1895,19 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) *
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"default\", function() { return RadioInput; });\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);\n\nfunction RadioInput({\n  id,\n  name,\n  value,\n  onChange\n}) {\n  function handleChange(event) {\n    const {\n      target\n    } = event;\n    onChange({\n      name: target.name,\n      value: target.value\n    });\n  }\n\n  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"input\", {\n    type: \"radio\",\n    name: name,\n    id: `${name}-${id}`,\n    value: value,\n    onChange: handleChange\n  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"label\", {\n    htmlFor: `${name}-${id}`\n  }, value));\n}\n\n//# sourceURL=webpack:///./src/presentational/RadioInput.jsx?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"default\", function() { return RadioInput; });\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _emotion_styled__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @emotion/styled */ \"./node_modules/@emotion/styled/dist/emotion-styled.browser.esm.js\");\n/* harmony import */ var style_OptionTitle__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! style/OptionTitle */ \"./src/style/OptionTitle.js\");\n/* harmony import */ var asset_image__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! asset/image */ \"./src/asset/image/index.js\");\n\n\n\n\nconst Container = _emotion_styled__WEBPACK_IMPORTED_MODULE_1__[\"default\"].div({\n  'boxSizing': 'border-box',\n  'padding': '1rem',\n  'height': '23rem',\n  'width': '17.3rem',\n  'flex': '0 1 17.3rem',\n  'overflow': 'hidden',\n  '& input': {\n    opacity: '0',\n    width: '0',\n    height: '0'\n  },\n  '& input + img': {\n    cursor: 'pointer',\n    margin: '0 auto'\n  },\n  '& input:checked + img': {\n    outline: '2px solid #f00'\n  },\n  'textAlign': 'center',\n  '& p': {\n    marginTop: '2rem'\n  },\n  ' :hover': {\n    borderRadius: '20px',\n    boxShadow: '0 3px 37px -10px rgba(207, 207, 207, 0.51)',\n    transform: 'scale(1.3)'\n  }\n});\nfunction RadioInput({\n  id,\n  name,\n  value,\n  onChange\n}) {\n  const imageUrl = asset_image__WEBPACK_IMPORTED_MODULE_3__[`${name}`][`${name}${id}`].default;\n\n  function handleChange(event) {\n    const {\n      target\n    } = event;\n    onChange({\n      name: target.name,\n      value: target.value\n    });\n  }\n\n  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Container, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"label\", {\n    htmlFor: `${name}-${id}`\n  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"input\", {\n    type: \"radio\",\n    name: name,\n    id: `${name}-${id}`,\n    value: value,\n    onChange: handleChange\n  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"img\", {\n    src: imageUrl,\n    alt: \"\"\n  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(style_OptionTitle__WEBPACK_IMPORTED_MODULE_2__[\"default\"], null, value)));\n}\n\n//# sourceURL=webpack:///./src/presentational/RadioInput.jsx?");
+
+/***/ }),
+
+/***/ "./src/presentational/SelectedOption.jsx":
+/*!***********************************************!*\
+  !*** ./src/presentational/SelectedOption.jsx ***!
+  \***********************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"default\", function() { return SelectedOption; });\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);\n\nfunction SelectedOption({\n  option\n}) {\n  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"p\", null, option);\n}\n\n//# sourceURL=webpack:///./src/presentational/SelectedOption.jsx?");
 
 /***/ }),
 
@@ -1523,7 +1919,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) *
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"default\", function() { return SelectedOptions; });\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var presentational_Option__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! presentational/Option */ \"./src/presentational/Option.jsx\");\n\n\nfunction SelectedOptions({\n  selectedOptions\n}) {\n  const {\n    region,\n    climbingLevel,\n    season,\n    activity\n  } = selectedOptions;\n  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"p\", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(presentational_Option__WEBPACK_IMPORTED_MODULE_1__[\"default\"], {\n    option: region\n  }), \"\\uC5D0\\uC11C\", ' ', /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(presentational_Option__WEBPACK_IMPORTED_MODULE_1__[\"default\"], {\n    option: climbingLevel\n  }), \"\\uB97C \\uC704\\uD55C\", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(presentational_Option__WEBPACK_IMPORTED_MODULE_1__[\"default\"], {\n    option: season\n  }), \"\\uC5D0 \\uC81C\\uACA9\\uC778\", ' ', /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(presentational_Option__WEBPACK_IMPORTED_MODULE_1__[\"default\"], {\n    option: activity\n  }), \"\\uBAA9\\uC801\\uC758 \\uB4F1\\uC0B0\\uB85C\\uC785\\uB2C8\\uB2E4!\");\n}\n\n//# sourceURL=webpack:///./src/presentational/SelectedOptions.jsx?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"default\", function() { return SelectedOptions; });\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var presentational_SelectedOption__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! presentational/SelectedOption */ \"./src/presentational/SelectedOption.jsx\");\n\n\nfunction SelectedOptions({\n  selectedOptions\n}) {\n  const {\n    region,\n    climbingLevel,\n    season,\n    activity\n  } = selectedOptions;\n  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"p\", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(presentational_SelectedOption__WEBPACK_IMPORTED_MODULE_1__[\"default\"], {\n    option: region\n  }), \"\\uC5D0\\uC11C\", ' ', /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(presentational_SelectedOption__WEBPACK_IMPORTED_MODULE_1__[\"default\"], {\n    option: climbingLevel\n  }), \"\\uB97C \\uC704\\uD55C\", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(presentational_SelectedOption__WEBPACK_IMPORTED_MODULE_1__[\"default\"], {\n    option: season\n  }), \"\\uC5D0 \\uC81C\\uACA9\\uC778\", ' ', /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(presentational_SelectedOption__WEBPACK_IMPORTED_MODULE_1__[\"default\"], {\n    option: activity\n  }), \"\\uBAA9\\uC801\\uC758 \\uB4F1\\uC0B0\\uB85C\\uC785\\uB2C8\\uB2E4!\");\n}\n\n//# sourceURL=webpack:///./src/presentational/SelectedOptions.jsx?");
 
 /***/ }),
 
@@ -1584,6 +1980,30 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) *
 
 "use strict";
 eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _emotion_styled__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @emotion/styled */ \"./node_modules/@emotion/styled/dist/emotion-styled.browser.esm.js\");\n\nconst Context = _emotion_styled__WEBPACK_IMPORTED_MODULE_0__[\"default\"].p(({\n  theme\n}) => ({\n  font: theme.typos.s,\n  color: theme.colors.context\n}));\n/* harmony default export */ __webpack_exports__[\"default\"] = (Context);\n\n//# sourceURL=webpack:///./src/style/Context.js?");
+
+/***/ }),
+
+/***/ "./src/style/OptionTitle.js":
+/*!**********************************!*\
+  !*** ./src/style/OptionTitle.js ***!
+  \**********************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _emotion_styled__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @emotion/styled */ \"./node_modules/@emotion/styled/dist/emotion-styled.browser.esm.js\");\n\nconst OptionTitle = _emotion_styled__WEBPACK_IMPORTED_MODULE_0__[\"default\"].p(({\n  theme\n}) => ({\n  font: theme.typos.xm,\n  color: theme.colors.main\n}));\n/* harmony default export */ __webpack_exports__[\"default\"] = (OptionTitle);\n\n//# sourceURL=webpack:///./src/style/OptionTitle.js?");
+
+/***/ }),
+
+/***/ "./src/style/QuestionTitle.js":
+/*!************************************!*\
+  !*** ./src/style/QuestionTitle.js ***!
+  \************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _emotion_styled__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @emotion/styled */ \"./node_modules/@emotion/styled/dist/emotion-styled.browser.esm.js\");\n\nconst QuestionTitle = _emotion_styled__WEBPACK_IMPORTED_MODULE_0__[\"default\"].h2(({\n  theme\n}) => ({\n  color: theme.colors.main,\n  font: theme.typos.l\n}));\n/* harmony default export */ __webpack_exports__[\"default\"] = (QuestionTitle);\n\n//# sourceURL=webpack:///./src/style/QuestionTitle.js?");
 
 /***/ }),
 
