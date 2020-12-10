@@ -11,10 +11,13 @@ const Container = styled.div({
 
 const Header = styled.header({
   height: '7%',
+
 });
 
 const ContentBox = styled.div({
   height: '93%',
+  boxSizing: 'border-box',
+
 });
 
 export default function Layout({ children }) {

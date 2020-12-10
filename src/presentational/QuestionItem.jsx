@@ -11,8 +11,9 @@ const Box = styled.div({
   boxSizing: 'border-box',
   padding: '1.8rem 11rem',
   flex: '1 0 100%',
-  height: '90%',
+  height: '100%',
   scrollSnapAlign: 'start',
+
 });
 
 export default function QuestionItem({
