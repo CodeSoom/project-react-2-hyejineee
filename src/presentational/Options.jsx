@@ -6,10 +6,10 @@ import RadioInput from 'presentational/RadioInput';
 
 const Container = styled.div({
   display: 'flex',
+  height: '100%',
   alignItems: 'stretch',
-  margin: '0 auto',
   justifyContent: 'space-around',
-  marginTop: '9.25rem',
+  marginTop: '8rem',
 });
 
 export default function Options({ options, category, onChange }) {
