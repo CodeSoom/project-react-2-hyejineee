@@ -77,7 +77,7 @@
 /******/ 	__webpack_require__.o = function(object, property) { return Object.prototype.hasOwnProperty.call(object, property); };
 /******/
 /******/ 	// __webpack_public_path__
-/******/ 	__webpack_require__.p = "/";
+/******/ 	__webpack_require__.p = "/build/";
 /******/
 /******/
 /******/ 	// Load entry module and return exports
@@ -1271,7 +1271,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) *
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (\"./build/assets/images/activity1.svg\");\n\n//# sourceURL=webpack:///./src/asset/image/activity/activity1.svg?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (\"/build/assets/images/activity1.svg\");\n\n//# sourceURL=webpack:///./src/asset/image/activity/activity1.svg?");
 
 /***/ }),
 
@@ -1283,7 +1283,11 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ 
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
+<<<<<<< Updated upstream
 eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (\"./build/assets/images/activity2.svg\");\n\n//# sourceURL=webpack:///./src/asset/image/activity/activity2.svg?");
+=======
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (\"/build/assets/images/activity2.svg\");\n\n//# sourceURL=webpack:///./src/asset/image/activity/activity2.svg?");
+>>>>>>> Stashed changes
 
 /***/ }),
 
@@ -1295,7 +1299,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ 
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (\"./build/assets/images/activity3.svg\");\n\n//# sourceURL=webpack:///./src/asset/image/activity/activity3.svg?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (\"/build/assets/images/activity3.svg\");\n\n//# sourceURL=webpack:///./src/asset/image/activity/activity3.svg?");
 
 /***/ }),
 
@@ -1307,7 +1311,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ 
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (\"./build/assets/images/activity4.svg\");\n\n//# sourceURL=webpack:///./src/asset/image/activity/activity4.svg?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (\"/build/assets/images/activity4.svg\");\n\n//# sourceURL=webpack:///./src/asset/image/activity/activity4.svg?");
 
 /***/ }),
 
@@ -1331,7 +1335,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _act
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (\"./build/assets/images/background.png\");\n\n//# sourceURL=webpack:///./src/asset/image/background.png?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (\"/build/assets/images/background.png\");\n\n//# sourceURL=webpack:///./src/asset/image/background.png?");
 
 /***/ }),
 
@@ -1367,7 +1371,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _lev
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (\"./build/assets/images/level1.svg\");\n\n//# sourceURL=webpack:///./src/asset/image/level/level1.svg?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (\"/build/assets/images/level1.svg\");\n\n//# sourceURL=webpack:///./src/asset/image/level/level1.svg?");
 
 /***/ }),
 
@@ -1379,7 +1383,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ 
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (\"./build/assets/images/level2.svg\");\n\n//# sourceURL=webpack:///./src/asset/image/level/level2.svg?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (\"/build/assets/images/level2.svg\");\n\n//# sourceURL=webpack:///./src/asset/image/level/level2.svg?");
 
 /***/ }),
 
@@ -1391,7 +1395,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ 
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (\"./build/assets/images/level3.svg\");\n\n//# sourceURL=webpack:///./src/asset/image/level/level3.svg?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (\"/build/assets/images/level3.svg\");\n\n//# sourceURL=webpack:///./src/asset/image/level/level3.svg?");
 
 /***/ }),
 
@@ -1415,7 +1419,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _reg
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (\"./build/assets/images/region1.svg\");\n\n//# sourceURL=webpack:///./src/asset/image/region/region1.svg?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (\"/build/assets/images/region1.svg\");\n\n//# sourceURL=webpack:///./src/asset/image/region/region1.svg?");
 
 /***/ }),
 
@@ -1427,7 +1431,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ 
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (\"./build/assets/images/region10.svg\");\n\n//# sourceURL=webpack:///./src/asset/image/region/region10.svg?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (\"/build/assets/images/region10.svg\");\n\n//# sourceURL=webpack:///./src/asset/image/region/region10.svg?");
 
 /***/ }),
 
@@ -1439,7 +1443,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ 
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (\"./build/assets/images/region11.svg\");\n\n//# sourceURL=webpack:///./src/asset/image/region/region11.svg?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (\"/build/assets/images/region11.svg\");\n\n//# sourceURL=webpack:///./src/asset/image/region/region11.svg?");
 
 /***/ }),
 
@@ -1451,7 +1455,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ 
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (\"./build/assets/images/region12.svg\");\n\n//# sourceURL=webpack:///./src/asset/image/region/region12.svg?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (\"/build/assets/images/region12.svg\");\n\n//# sourceURL=webpack:///./src/asset/image/region/region12.svg?");
 
 /***/ }),
 
@@ -1463,7 +1467,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ 
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (\"./build/assets/images/region13.svg\");\n\n//# sourceURL=webpack:///./src/asset/image/region/region13.svg?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (\"/build/assets/images/region13.svg\");\n\n//# sourceURL=webpack:///./src/asset/image/region/region13.svg?");
 
 /***/ }),
 
@@ -1475,7 +1479,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ 
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (\"./build/assets/images/region14.svg\");\n\n//# sourceURL=webpack:///./src/asset/image/region/region14.svg?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (\"/build/assets/images/region14.svg\");\n\n//# sourceURL=webpack:///./src/asset/image/region/region14.svg?");
 
 /***/ }),
 
@@ -1487,7 +1491,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ 
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (\"./build/assets/images/region15.svg\");\n\n//# sourceURL=webpack:///./src/asset/image/region/region15.svg?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (\"/build/assets/images/region15.svg\");\n\n//# sourceURL=webpack:///./src/asset/image/region/region15.svg?");
 
 /***/ }),
 
@@ -1499,7 +1503,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ 
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (\"./build/assets/images/region16.svg\");\n\n//# sourceURL=webpack:///./src/asset/image/region/region16.svg?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (\"/build/assets/images/region16.svg\");\n\n//# sourceURL=webpack:///./src/asset/image/region/region16.svg?");
 
 /***/ }),
 
@@ -1511,7 +1515,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ 
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (\"./build/assets/images/region2.svg\");\n\n//# sourceURL=webpack:///./src/asset/image/region/region2.svg?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (\"/build/assets/images/region2.svg\");\n\n//# sourceURL=webpack:///./src/asset/image/region/region2.svg?");
 
 /***/ }),
 
@@ -1523,7 +1527,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ 
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (\"./build/assets/images/region3.svg\");\n\n//# sourceURL=webpack:///./src/asset/image/region/region3.svg?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (\"/build/assets/images/region3.svg\");\n\n//# sourceURL=webpack:///./src/asset/image/region/region3.svg?");
 
 /***/ }),
 
@@ -1535,7 +1539,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ 
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (\"./build/assets/images/region4.svg\");\n\n//# sourceURL=webpack:///./src/asset/image/region/region4.svg?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (\"/build/assets/images/region4.svg\");\n\n//# sourceURL=webpack:///./src/asset/image/region/region4.svg?");
 
 /***/ }),
 
@@ -1547,7 +1551,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ 
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (\"./build/assets/images/region5.svg\");\n\n//# sourceURL=webpack:///./src/asset/image/region/region5.svg?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (\"/build/assets/images/region5.svg\");\n\n//# sourceURL=webpack:///./src/asset/image/region/region5.svg?");
 
 /***/ }),
 
@@ -1559,7 +1563,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ 
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (\"./build/assets/images/region6.svg\");\n\n//# sourceURL=webpack:///./src/asset/image/region/region6.svg?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (\"/build/assets/images/region6.svg\");\n\n//# sourceURL=webpack:///./src/asset/image/region/region6.svg?");
 
 /***/ }),
 
@@ -1571,7 +1575,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ 
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (\"./build/assets/images/region7.svg\");\n\n//# sourceURL=webpack:///./src/asset/image/region/region7.svg?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (\"/build/assets/images/region7.svg\");\n\n//# sourceURL=webpack:///./src/asset/image/region/region7.svg?");
 
 /***/ }),
 
@@ -1583,7 +1587,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ 
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (\"./build/assets/images/region8.svg\");\n\n//# sourceURL=webpack:///./src/asset/image/region/region8.svg?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (\"/build/assets/images/region8.svg\");\n\n//# sourceURL=webpack:///./src/asset/image/region/region8.svg?");
 
 /***/ }),
 
@@ -1595,7 +1599,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ 
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (\"./build/assets/images/region9.svg\");\n\n//# sourceURL=webpack:///./src/asset/image/region/region9.svg?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (\"/build/assets/images/region9.svg\");\n\n//# sourceURL=webpack:///./src/asset/image/region/region9.svg?");
 
 /***/ }),
 
@@ -1619,7 +1623,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _sea
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (\"./build/assets/images/season1.svg\");\n\n//# sourceURL=webpack:///./src/asset/image/season/season1.svg?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (\"/build/assets/images/season1.svg\");\n\n//# sourceURL=webpack:///./src/asset/image/season/season1.svg?");
 
 /***/ }),
 
@@ -1631,7 +1635,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ 
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (\"./build/assets/images/season2.svg\");\n\n//# sourceURL=webpack:///./src/asset/image/season/season2.svg?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (\"/build/assets/images/season2.svg\");\n\n//# sourceURL=webpack:///./src/asset/image/season/season2.svg?");
 
 /***/ }),
 
@@ -1643,7 +1647,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ 
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (\"./build/assets/images/season3.svg\");\n\n//# sourceURL=webpack:///./src/asset/image/season/season3.svg?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (\"/build/assets/images/season3.svg\");\n\n//# sourceURL=webpack:///./src/asset/image/season/season3.svg?");
 
 /***/ }),
 
@@ -1655,7 +1659,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ 
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (\"./build/assets/images/season4.svg\");\n\n//# sourceURL=webpack:///./src/asset/image/season/season4.svg?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony default export */ __webpack_exports__[\"default\"] = (\"/build/assets/images/season4.svg\");\n\n//# sourceURL=webpack:///./src/asset/image/season/season4.svg?");
 
 /***/ }),
 
@@ -1871,7 +1875,11 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) *
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
+<<<<<<< Updated upstream
 eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"default\", function() { return QuestionItem; });\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _emotion_styled__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @emotion/styled */ \"./node_modules/@emotion/styled/dist/emotion-styled.browser.esm.js\");\n/* harmony import */ var style_Context__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! style/Context */ \"./src/style/Context.js\");\n/* harmony import */ var style_QuestionTitle__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! style/QuestionTitle */ \"./src/style/QuestionTitle.js\");\n/* harmony import */ var presentational_Regions__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! presentational/Regions */ \"./src/presentational/Regions.jsx\");\n/* harmony import */ var presentational_Options__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! presentational/Options */ \"./src/presentational/Options.jsx\");\n\n\n\n\n\n\nconst Box = _emotion_styled__WEBPACK_IMPORTED_MODULE_1__[\"default\"].div({\n  boxSizing: 'border-box',\n  padding: '1.8rem 11rem',\n  flex: '1 0 100%',\n  height: '100%',\n  scrollSnapAlign: 'start',\n  overflow: 'hidden'\n});\nfunction QuestionItem({\n  question: {\n    category,\n    question,\n    options,\n    sub\n  },\n  onChange\n}) {\n  const Option = () => {\n    if (category === 'region') {\n      return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(presentational_Regions__WEBPACK_IMPORTED_MODULE_4__[\"default\"], {\n        regions: options,\n        onChange: onChange\n      });\n    }\n\n    return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(presentational_Options__WEBPACK_IMPORTED_MODULE_5__[\"default\"], {\n      options: options,\n      category: category,\n      onChange: onChange\n    });\n  };\n\n  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Box, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"div\", {\n    id: category\n  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(style_QuestionTitle__WEBPACK_IMPORTED_MODULE_3__[\"default\"], null, question), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(style_Context__WEBPACK_IMPORTED_MODULE_2__[\"default\"], null, sub), Option()));\n}\n\n//# sourceURL=webpack:///./src/presentational/QuestionItem.jsx?");
+=======
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"default\", function() { return QuestionItem; });\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _emotion_styled__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @emotion/styled */ \"./node_modules/@emotion/styled/dist/emotion-styled.browser.esm.js\");\n/* harmony import */ var style_Context__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! style/Context */ \"./src/style/Context.js\");\n/* harmony import */ var style_QuestionTitle__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! style/QuestionTitle */ \"./src/style/QuestionTitle.js\");\n/* harmony import */ var presentational_Options__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! presentational/Options */ \"./src/presentational/Options.jsx\");\n\n\n\n\n\nconst Box = _emotion_styled__WEBPACK_IMPORTED_MODULE_1__[\"default\"].div({\n  boxSizing: 'border-box',\n  padding: '1.8rem 11rem',\n  flex: '1 0 100%',\n  height: '100%',\n  scrollSnapAlign: 'start'\n});\nfunction QuestionItem({\n  question: {\n    category,\n    question,\n    options,\n    sub\n  },\n  onChange\n}) {\n  const Option = () => {\n    if (category === 'region') {\n      return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"div\", null);\n    }\n\n    return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(presentational_Options__WEBPACK_IMPORTED_MODULE_4__[\"default\"], {\n      options: options,\n      category: category,\n      onChange: onChange\n    });\n  };\n\n  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Box, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"div\", {\n    id: category\n  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(style_QuestionTitle__WEBPACK_IMPORTED_MODULE_3__[\"default\"], null, question), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(style_Context__WEBPACK_IMPORTED_MODULE_2__[\"default\"], null, sub), Option()));\n}\n\n//# sourceURL=webpack:///./src/presentational/QuestionItem.jsx?");
+>>>>>>> Stashed changes
 
 /***/ }),
 
@@ -1895,6 +1903,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) *
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
+<<<<<<< Updated upstream
 eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"default\", function() { return RadioInput; });\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _emotion_styled__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @emotion/styled */ \"./node_modules/@emotion/styled/dist/emotion-styled.browser.esm.js\");\n/* harmony import */ var style_OptionTitle__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! style/OptionTitle */ \"./src/style/OptionTitle.js\");\n/* harmony import */ var asset_image__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! asset/image */ \"./src/asset/image/index.js\");\n\n\n\n\nconst Container = _emotion_styled__WEBPACK_IMPORTED_MODULE_1__[\"default\"].div({\n  'textAlign': 'center',\n  '& input': {\n    opacity: '0',\n    width: '0',\n    height: '0'\n  },\n  '& input:checked + label': {\n    borderRadius: '20px',\n    boxShadow: '0 3px 37px -10px rgba(207, 207, 207, 0.51)',\n    transform: 'scale(1.15)'\n  }\n});\nfunction RadioInput({\n  id,\n  name,\n  value,\n  onChange\n}) {\n  const imageUrl = asset_image__WEBPACK_IMPORTED_MODULE_3__[`${name}`][`${name}${id}`].default;\n\n  function handleChange(event) {\n    const {\n      target\n    } = event;\n    onChange({\n      name: target.name,\n      value: target.value\n    });\n  }\n\n  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Container, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"input\", {\n    type: \"radio\",\n    name: name,\n    id: `${name}-${id}`,\n    value: value,\n    onChange: handleChange\n  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(style_OptionTitle__WEBPACK_IMPORTED_MODULE_2__[\"default\"], {\n    htmlFor: `${name}-${id}`,\n    image: imageUrl\n  }, value));\n}\n\n//# sourceURL=webpack:///./src/presentational/RadioInput.jsx?");
 
 /***/ }),
@@ -1908,6 +1917,9 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) *
 
 "use strict";
 eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"default\", function() { return Regions; });\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _emotion_styled__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @emotion/styled */ \"./node_modules/@emotion/styled/dist/emotion-styled.browser.esm.js\");\n/* harmony import */ var asset_image_region__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! asset/image/region */ \"./src/asset/image/region/index.js\");\n\n\n\nconst Container = _emotion_styled__WEBPACK_IMPORTED_MODULE_1__[\"default\"].div({\n  'position': 'relative',\n  '& input': {\n    opacity: '0',\n    width: '0',\n    height: '0'\n  },\n  '& input:checked + label': {\n    borderRadius: '22px',\n    boxShadow: '0 3px 37px -10px #cfcfcf'\n  }\n});\nconst Map = _emotion_styled__WEBPACK_IMPORTED_MODULE_1__[\"default\"].span(({\n  image,\n  hovered,\n  checked\n}) => ({\n  width: '26rem',\n  height: '49rem',\n  display: 'inline-block',\n  position: 'absolute',\n  top: '-7rem',\n  right: '0',\n  backgroundImage: `url(${image})`,\n  backgroundRepeat: 'no-repeat',\n  filter: hovered || checked ? 'invert(40%) sepia(86%) saturate(1156%) hue-rotate(196deg) brightness(108%) contrast(100%)' : ''\n}));\nconst Label = _emotion_styled__WEBPACK_IMPORTED_MODULE_1__[\"default\"].label(({\n  theme\n}) => ({\n  'display': 'inline-block',\n  'font': theme.typos.m,\n  'color': theme.colors.main,\n  'width': '7rem',\n  'height': '2.4rem',\n  'padding': '0.3rem 0.5rem',\n  ': hover': {\n    borderRadius: '22px',\n    boxShadow: '0 3px 37px -10px #cfcfcf'\n  }\n}));\nconst Grid = _emotion_styled__WEBPACK_IMPORTED_MODULE_1__[\"default\"].div({\n  width: '30%',\n  display: 'grid',\n  marginTop: '7.5rem',\n  gap: '25px 0',\n  gridTemplateRows: 'repeat(6, 1fr)',\n  gridTemplateColumns: 'repeat(3, 1fr)',\n  textAlign: 'center',\n  gridAutoFlow: 'column'\n});\nfunction Regions({\n  regions,\n  onChange\n}) {\n  const [state, setState] = Object(react__WEBPACK_IMPORTED_MODULE_0__[\"useState\"])({\n    hover: null,\n    checked: null\n  });\n\n  function handleChange(event, id) {\n    const {\n      target\n    } = event;\n    setState({ ...state,\n      checked: id\n    });\n    onChange({\n      name: target.name,\n      value: target.value\n    });\n  }\n\n  function handleMouseEnter(id) {\n    setState({ ...state,\n      hover: id\n    });\n  }\n\n  function handleMouseLeave() {\n    setState({ ...state,\n      hover: null\n    });\n  }\n\n  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Container, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Grid, null, regions.map(({\n    id,\n    option\n  }) => /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"div\", {\n    onMouseEnter: () => handleMouseEnter(id),\n    onMouseLeave: () => handleMouseLeave(id)\n  }, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"input\", {\n    type: \"radio\",\n    name: \"region\",\n    id: `${'region'}-${id}`,\n    value: option,\n    onChange: e => handleChange(e, id)\n  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Label, {\n    htmlFor: `region-${id}`\n  }, option)))), regions.map(({\n    id\n  }) => /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"div\", null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Map, {\n    id: `region${id}`,\n    image: asset_image_region__WEBPACK_IMPORTED_MODULE_2__[`region${id}`].default,\n    hovered: id === state.hover,\n    checked: id === state.checked\n  }))));\n}\n\n//# sourceURL=webpack:///./src/presentational/Regions.jsx?");
+=======
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"default\", function() { return RadioInput; });\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _emotion_styled__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @emotion/styled */ \"./node_modules/@emotion/styled/dist/emotion-styled.browser.esm.js\");\n/* harmony import */ var style_OptionTitle__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! style/OptionTitle */ \"./src/style/OptionTitle.js\");\n/* harmony import */ var asset_image__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! asset/image */ \"./src/asset/image/index.js\");\n\n\n\n\nconst Container = _emotion_styled__WEBPACK_IMPORTED_MODULE_1__[\"default\"].div({\n  'textAlign': 'center',\n  '& input': {\n    opacity: '0',\n    width: '0',\n    height: '0'\n  },\n  '& input:checked + label': {\n    borderRadius: '20px',\n    boxShadow: '0 3px 37px -10px rgba(207, 207, 207, 0.51)',\n    transform: 'scale(1.15)'\n  }\n});\nfunction RadioInput({\n  id,\n  name,\n  value,\n  onChange\n}) {\n  const imageUrl = asset_image__WEBPACK_IMPORTED_MODULE_3__[`${name}`][`${name}${id}`].default;\n  console.log(imageUrl);\n\n  function handleChange(event) {\n    const {\n      target\n    } = event;\n    onChange({\n      name: target.name,\n      value: target.value\n    });\n  }\n\n  return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(Container, null, /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(\"input\", {\n    type: \"radio\",\n    name: name,\n    id: `${name}-${id}`,\n    value: value,\n    onChange: handleChange\n  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(style_OptionTitle__WEBPACK_IMPORTED_MODULE_2__[\"default\"], {\n    htmlFor: `${name}-${id}`,\n    image: `${imageUrl}`\n  }, value));\n}\n\n//# sourceURL=webpack:///./src/presentational/RadioInput.jsx?");
+>>>>>>> Stashed changes
 
 /***/ }),
 

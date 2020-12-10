@@ -26,6 +26,8 @@ export default function RadioInput({
 }) {
   const imageUrl = optionImage[`${name}`][`${name}${id}`].default;
 
+  console.log(imageUrl);
+
   function handleChange(event) {
     const { target } = event;
     onChange({ name: target.name, value: target.value });
@@ -41,7 +43,7 @@ export default function RadioInput({
         value={value}
         onChange={handleChange}
       />
-      <OptionTitle htmlFor={`${name}-${id}`} image={imageUrl}>
+      <OptionTitle htmlFor={`${name}-${id}`} image={`${imageUrl}`}>
         {value}
       </OptionTitle>
     </Container>
