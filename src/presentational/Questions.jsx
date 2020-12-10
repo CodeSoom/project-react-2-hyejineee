@@ -25,14 +25,10 @@ export default function Questions({ questions, onChange }) {
     <Layout>
       <Container>
         {
-          questions.map(({
-            id, category, question, options,
-          }) => (
+          questions.map((question) => (
             <QuestionItem
-              key={id}
-              category={category}
+              key={question.id}
               question={question}
-              options={options}
               onChange={onChange}
             />
           ))

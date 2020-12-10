@@ -7,6 +7,7 @@ module.exports = {
   output: {
     path: `${__dirname}/build`,
     filename: 'bundle.js',
+    publicPath: '/',
   },
   module: {
     rules: [
@@ -22,7 +23,7 @@ module.exports = {
             loader: 'file-loader',
             options: {
               publicPath: './build/',
-              name: '/assets/images/[name].[ext]',
+              name: 'assets/images/[name].[ext]',
             },
           },
         ],

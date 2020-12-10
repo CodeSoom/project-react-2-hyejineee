@@ -1,6 +1,6 @@
 import React from 'react';
 
-import Option from 'presentational/Option';
+import SelectedOption from 'presentational/SelectedOption';
 
 export default function SelectedOptions({ selectedOptions }) {
   const {
@@ -9,15 +9,15 @@ export default function SelectedOptions({ selectedOptions }) {
 
   return (
     <p>
-      <Option option={region} />
+      <SelectedOption option={region} />
       에서
       {' '}
-      <Option option={climbingLevel} />
+      <SelectedOption option={climbingLevel} />
       를 위한
-      <Option option={season} />
+      <SelectedOption option={season} />
       에 제격인
       {' '}
-      <Option option={activity} />
+      <SelectedOption option={activity} />
       목적의 등산로입니다!
     </p>
   );
