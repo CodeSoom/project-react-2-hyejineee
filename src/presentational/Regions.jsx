@@ -22,7 +22,7 @@ const Map = styled.span(({ image, hovered, checked }) => ({
   height: '49rem',
   display: 'inline-block',
   position: 'absolute',
-  top: '-7rem',
+  top: '-7.5rem',
   right: '0',
   backgroundImage: `url(${image})`,
   backgroundRepeat: 'no-repeat',
@@ -45,9 +45,10 @@ const Label = styled.label(({ theme }) => ({
 }));
 
 const Grid = styled.div({
+  position: 'absolute',
   width: '30%',
   display: 'grid',
-  marginTop: '7.5rem',
+  top: '7.5rem',
   gap: '25px 0',
   gridTemplateRows: 'repeat(6, 1fr)',
   gridTemplateColumns: 'repeat(3, 1fr)',
