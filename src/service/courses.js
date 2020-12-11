@@ -2,7 +2,7 @@ import climbingCourses from 'data/courses';
 
 import {
   exist,
-} from '../utils';
+} from 'utils/utils';
 
 export function findClimbingCourses({
   region, climbingLevel, season, activity,

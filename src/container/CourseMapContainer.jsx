@@ -8,7 +8,7 @@ import CourseMap from 'presentational/CourseMap';
 
 import { loadCourseGPX } from '_redux/slice';
 
-import { converter } from 'utils';
+import { converter } from 'utils/utils';
 
 const parser = (str, mimeType) => new DOMParser().parseFromString(str, mimeType);
 

@@ -9,20 +9,23 @@ import QuestionTitle from 'style/QuestionTitle';
 import Regions from 'presentational/Regions';
 import Options from 'presentational/Options';
 
-const Box = styled.div({
-  boxSizing: 'border-box',
-  padding: '1.8rem 11rem',
-  flex: '1 0 100%',
-  height: '100%',
-  scrollSnapAlign: 'start',
-  overflow: 'hidden',
-});
+const Box = styled.div(({ translate }) => ({
+  'boxSizing': 'border-box',
+  'flex': '0 0 100%',
+  'width': '100%',
+  'height': '100%',
+  ' > div': {
+    'transform': `translateX(-${translate * 100}%)`,
+    'transition': 'all .5s',
+  },
+}));
 
 export default function QuestionItem({
   question: {
     category, question, options, sub,
   },
   onChange,
+  translate,
 }) {
   const Option = () => {
     if (category === 'region') {
@@ -39,7 +42,7 @@ export default function QuestionItem({
   };
 
   return (
-    <Box>
+    <Box translate={translate}>
       <div id={category}>
         <QuestionTitle>{question}</QuestionTitle>
         <Context>{sub}</Context>

@@ -48,7 +48,7 @@ module.exports = {
       container: path.resolve(__dirname, 'src/container/'),
       _redux: path.resolve(__dirname, 'src/redux/'),
       data: path.resolve(__dirname, 'src/data/'),
-      utils: path.resolve(__dirname, 'src/utils.js'),
+      utils: path.resolve(__dirname, 'src/utils/'),
       service: path.resolve(__dirname, 'src/service/'),
       page: path.resolve(__dirname, 'src/page/'),
       asset: path.resolve(__dirname, 'src/asset/'),

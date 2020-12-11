@@ -21,8 +21,8 @@ module.exports = {
     '^page/(.*)': '<rootDir>/src/page/$1',
     '^asset/(.*)': '<rootDir>/src/asset/$1',
     '^style/(.*)': '<rootDir>/src/style/$1',
-    '^utils': '<rootDir>/src/utils.js',
+    '^utils/(.*)': '<rootDir>/src/utils/$1',
     '\\.(gpx|png|svg)$': '<rootDir>/__mocks__/fileMock.js',
   },
-  modulePathIgnorePatterns: ['<rootDir>/src/style/'],
+  modulePathIgnorePatterns: ['<rootDir>/src/style/', '<rootDir>/src/asset/'],
 };
