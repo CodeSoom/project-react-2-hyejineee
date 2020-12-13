@@ -11,14 +11,13 @@ import CourseItem from 'presentational/CourseItem';
 const Container = styled.div({
   'display': 'flex',
   'alignItems': 'flex-start',
-  'backgroundColor': 'rebeccapurple',
 });
 
 const List = styled.ul({
   'flex': '1 0 0',
   'height': '100%',
   'display': 'grid',
-  'gridAutoColumns': 'minmax(50%, 1fr)',
+  'gridAutoColumns': 'minmax(50%, 50%)',
   'gridTemplateRows': 'repeat(2, 50%)',
   'gridAutoFlow': 'column',
   'overflow': 'hidden',

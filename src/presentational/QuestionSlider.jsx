@@ -17,11 +17,30 @@ const Container = styled.div({
   },
 });
 
+const ResultButton = styled.button({
+});
+
 export default function QuestionSlider({ onChange, questionIndex }) {
   function handleChange(e) {
     const { value } = e.target;
     onChange(value);
   }
+
+  const nextButton = () => {
+    if (questionIndex === 4) {
+      return (
+        <ResultButton>
+          <Link to="/result">등산코스 보기!</Link>
+        </ResultButton>
+      );
+    }
+
+    return (
+      <label htmlFor={`category${questionIndex + 1}`}>
+        <img src={rightIcon} alt="right" />
+      </label>
+    );
+  };
 
   return (
     <Container>
@@ -39,15 +58,10 @@ export default function QuestionSlider({ onChange, questionIndex }) {
         <input type="radio" name="category" id="category3" value={2} onChange={handleChange} checked={questionIndex === 3} />
         <input type="radio" name="category" id="category4" value={3} onChange={handleChange} checked={questionIndex === 4} />
 
-        <Link to="/result"> 결과보기</Link>
       </div>
 
       <div>
-
-        <label htmlFor={`category${questionIndex + 1}`}>
-          <img src={rightIcon} alt="right" />
-        </label>
-
+        {nextButton()}
       </div>
 
     </Container>
