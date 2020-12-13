@@ -17,7 +17,7 @@ import App from './App';
 ReactDOM.render(
   (
     <Provider store={store}>
-      <BrowserRouter basename={process.env.REACT_APP_MAP_BASE_URL}>
+      <BrowserRouter basename={process.env.REACT_APP_BASE_URL}>
         <ThemeProvider theme={theme}>
           <App />
         </ThemeProvider>

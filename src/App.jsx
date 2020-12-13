@@ -8,7 +8,7 @@ import ResultPage from 'page/ResultPage';
 
 export default function App() {
   return (
-    <div>
+    <div id="mainApp">
       deploy test
       <Switch>
         <Route exact path="/" component={HomePage} />
