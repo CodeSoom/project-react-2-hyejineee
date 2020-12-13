@@ -72,8 +72,8 @@ export default function Courses({ courses, onClick }) {
   if (courses.length <= 0) {
     return (
       <div>
-        <NoResultImage alt="등산코스 없음" src={noResultImage} />
-        <NoResultText>찾으시는 등산코스가 없어요ㅠㅠ</NoResultText>
+        <NoResultImage alt="등산 코스 없음" src={noResultImage} />
+        <NoResultText>찾으시는 등산 코스가 없어요ㅠㅠ</NoResultText>
       </div>
     );
   }
