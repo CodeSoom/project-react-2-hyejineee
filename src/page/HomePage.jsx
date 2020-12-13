@@ -57,7 +57,7 @@ export default function HomePage() {
           <br />
         </Context>
 
-        <Link to="/questions">
+        <Link to="/project-react-2-hyejineee/questions">
           Start
         </Link>
       </ContentsBox>
