@@ -4,7 +4,7 @@ import { fetchCourseGPXFile } from 'service/courseGPX';
 const initialState = {
   selectedOptions: {
     region: '',
-    climbingLevel: '',
+    level: '',
     season: '',
     activity: '',
   },
