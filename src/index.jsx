@@ -14,7 +14,6 @@ import theme from 'style/theme';
 
 import App from './App';
 
-console.log(process.env.REACT_APP_BASE_URL);
 ReactDOM.render(
   (
     <Provider store={store}>
