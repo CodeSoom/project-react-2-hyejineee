@@ -9,7 +9,6 @@ import ResultPage from 'page/ResultPage';
 export default function App() {
   return (
     <div>
-      deploy
       <Switch>
         <Route exact path="/" component={HomePage} />
         <Route path="/questions" component={QuestionPage} />
