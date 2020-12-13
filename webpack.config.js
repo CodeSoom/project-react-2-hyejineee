@@ -22,7 +22,7 @@ module.exports = {
           {
             loader: 'file-loader',
             options: {
-              publicPath: '/',
+              publicPath: '/project-react-2-hyejineee/',
               name: 'assets/images/[name].[ext]',
             },
           },
@@ -34,7 +34,7 @@ module.exports = {
           {
             loader: 'file-loader',
             options: {
-              publicPath: '/',
+              publicPath: '/project-react-2-hyejineee/',
               name: 'data/gpx/[name].[ext]',
             },
           },
