@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { Switch, Route } from 'react-router-dom';
+import { Switch, Route, Link } from 'react-router-dom';
 
 import HomePage from 'page/HomePage';
 import QuestionPage from 'page/QuestionsPage';
@@ -15,6 +15,8 @@ export default function App() {
         <Route path="/questions" component={QuestionPage} />
         <Route path="/result" component={ResultPage} />
       </Switch>
+
+      <Link to="/questions">질문화면</Link>
     </div>
   );
 }
