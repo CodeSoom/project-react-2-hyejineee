@@ -14,9 +14,18 @@ const OptionBox = styled.div({
 });
 
 const CourseBox = styled.div({
-  display: 'flex',
-  height: '70%',
-  boxSizing: 'border-box',
+  'display': 'flex',
+  'width': '100%',
+  'height': '70%',
+  'boxSizing': 'border-box',
+  '& div:first-child': {
+    flex: '2 1 0',
+  },
+
+  '& div:last-child': {
+    flex: '1.5 1 0',
+  },
+
 });
 
 export default function ResultPage() {

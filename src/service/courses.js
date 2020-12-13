@@ -5,9 +5,9 @@ import {
 } from 'utils/utils';
 
 export function findClimbingCourses({
-  region, climbingLevel, season, activity,
+  region, level, season, activity,
 }) {
-  if (!(region && climbingLevel && season && activity)) {
+  if (!(region && level && season && activity)) {
     return [];
   }
 
@@ -16,7 +16,7 @@ export function findClimbingCourses({
     '초보자': '하',
     '중급자': '중',
     '상급자': '상',
-  }[climbingLevel]);
+  }[level]);
   const hasSeason = exist(season);
   const hasActivity = exist(activity);
 
