@@ -22,7 +22,7 @@ module.exports = {
           {
             loader: 'file-loader',
             options: {
-              publicPath: './build/',
+              publicPath: '/build/',
               name: 'assets/images/[name].[ext]',
             },
           },
@@ -34,7 +34,7 @@ module.exports = {
           {
             loader: 'file-loader',
             options: {
-              publicPath: './build/',
+              publicPath: '/build/',
               name: 'data/gpx/[name].[ext]',
             },
           },
