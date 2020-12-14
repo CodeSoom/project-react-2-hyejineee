@@ -30,7 +30,7 @@ export default function QuestionSlider({ onChange, questionIndex }) {
     if (questionIndex === 4) {
       return (
         <ResultButton>
-          <Link to="/project-react-2-hyejineee/result">등산코스 보기!</Link>
+          <Link to="/result">등산코스 보기!</Link>
         </ResultButton>
       );
     }
