@@ -4,14 +4,18 @@ import { render } from '@testing-library/react';
 
 import { MemoryRouter } from 'react-router-dom';
 
+import MockTheme from 'utils/MockTheme';
+
 import QuestionsPage from './QuestionsPage';
 
 describe('QuestionsPage', () => {
   function renderQuestionsPage() {
     return render(
-      <MemoryRouter>
-        <QuestionsPage />
-      </MemoryRouter>,
+      <MockTheme>
+        <MemoryRouter>
+          <QuestionsPage />
+        </MemoryRouter>
+      </MockTheme>,
     );
   }
 

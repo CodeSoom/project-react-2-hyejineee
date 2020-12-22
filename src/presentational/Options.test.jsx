@@ -2,6 +2,8 @@ import React from 'react';
 
 import { render } from '@testing-library/react';
 
+import MockTheme from 'utils/MockTheme';
+
 import Options from './Options';
 
 describe('QuestionItem', () => {
@@ -13,11 +15,13 @@ describe('QuestionItem', () => {
   ];
 
   const { getByLabelText } = render(
-    <Options
-      category="seson"
-      options={options}
-      onChange={jest.fn()}
-    />,
+    <MockTheme>
+      <Options
+        category="season"
+        options={options}
+        onChange={jest.fn()}
+      />
+    </MockTheme>,
   );
 
   it('render options', () => {

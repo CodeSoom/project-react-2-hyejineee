@@ -7,7 +7,7 @@ describe('courses service', () => {
     context('with all option values', () => {
       it('return climbing course', () => {
         const courses = findClimbingCourses({
-          region: '서울', climbingLevel: '초보자', season: '가을', activity: '경치 구경하기',
+          region: '서울', level: '초보자', season: '가을', activity: '경치 구경하기',
         });
 
         expect(courses.length).toEqual(2);

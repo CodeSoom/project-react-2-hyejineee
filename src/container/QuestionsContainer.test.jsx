@@ -4,6 +4,8 @@ import { fireEvent, render } from '@testing-library/react';
 
 import { useDispatch } from 'react-redux';
 
+import MockTheme from 'utils/MockTheme';
+
 import QuestionsContainer from './QuestionsContainer';
 
 jest.mock('react-redux');
@@ -13,7 +15,9 @@ describe('QuestionsContainer', () => {
 
   function renderQuestionsContainer() {
     return render(
-      <QuestionsContainer />,
+      <MockTheme>
+        <QuestionsContainer />
+      </MockTheme>,
     );
   }
 
