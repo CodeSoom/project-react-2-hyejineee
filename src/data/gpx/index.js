@@ -1,1 +1,16 @@
 export * as course1 from './소요산-공주봉 코스.gpx';
+export * as course2 from './북한산-북한산성 코스.gpx';
+export * as course3 from './아차산-아차산 정상길 코스.gpx';
+export * as course4 from './북한산-대남문 코스.gpx';
+export * as course5 from './인왕산-한양도성길.gpx';
+export * as course6 from './청계산-1코스.gpx';
+export * as course7 from './북악산-3코스.gpx';
+export * as course8 from './관악산-관악산정상 코스.gpx';
+export * as course9 from './도봉산-신선대 도봉산역 코스.gpx';
+export * as course10 from './설악산-공룡능선 코스.gpx';
+export * as course11 from './설악산-대청봉_오색.gpx';
+export * as course12 from './설악산-울산바위 코스.gpx';
+export * as course13 from './태백산-유일사 코스.gpx';
+export * as course14 from './오대산-소금강 코스.gpx';
+export * as course16 from './치악산-구룡비로봉 코스.gpx';
+export * as course17 from './명지산-익근리 코스.gpx';

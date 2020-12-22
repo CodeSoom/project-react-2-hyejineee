@@ -1,6 +1,6 @@
 const path = require('path');
 const webpack = require('webpack');
-// const Dotenv = require('dotenv-webpack');
+const Dotenv = require('dotenv-webpack');
 
 module.exports = {
   entry: path.resolve(__dirname, 'src/index.jsx'),
@@ -64,6 +64,7 @@ module.exports = {
     },
   },
   plugins: [
+    new Dotenv(),
     new webpack.DefinePlugin({
       'process.env': {
         REACT_APP_BASE_URL: JSON.stringify(process.env.REACT_APP_BASE_URL),
