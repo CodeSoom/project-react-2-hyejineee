@@ -7,7 +7,6 @@ import MockTheme from 'utils/MockTheme';
 import QuestionSlider from './QuestionSlider';
 
 describe('QuestionSlider', () => {
-  const questionCategory = ['region', 'level', 'season', 'activity'];
   function renderQuestionSlider() {
     return render(
       <MockTheme>
@@ -21,10 +20,6 @@ describe('QuestionSlider', () => {
 
     expect(getByAltText('right')).not.toBeNull();
     expect(getByAltText('left')).not.toBeNull();
-
-    questionCategory.forEach((_, i) => {
-      expect(getByAltText(`question${i}`)).not.toBeNull();
-    });
   });
 
   describe('click right arrow button', () => {

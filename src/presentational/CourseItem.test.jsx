@@ -1,8 +1,10 @@
 import React from 'react';
 
-import { fireEvent, render } from '@testing-library/react';
+import { render } from '@testing-library/react';
 
 import { NaverMap } from 'react-naver-maps';
+
+import MockTheme from 'utils/MockTheme';
 
 import CourseItem from './CourseItem';
 
@@ -12,8 +14,6 @@ describe('CourseItem', () => {
   NaverMap.mockImplementation(() => (
     <div id="react-naver-map" />
   ));
-
-  const handleClick = jest.fn();
 
   beforeEach(() => {
     jest.clearAllMocks();
@@ -41,10 +41,11 @@ describe('CourseItem', () => {
     };
 
     return render(
-      <CourseItem
-        course={course}
-        onClick={handleClick}
-      />,
+      <MockTheme>
+        <CourseItem
+          course={course}
+        />
+      </MockTheme>,
     );
   }
 
@@ -53,15 +54,5 @@ describe('CourseItem', () => {
 
     expect(container).toHaveTextContent('소요산');
     expect(container).toHaveTextContent('공주봉 코스');
-  });
-
-  describe('click map icon', () => {
-    it('calls onClick', () => {
-      const { getByRole } = renderCourseItem();
-
-      fireEvent.click(getByRole('button'));
-
-      expect(handleClick).toBeCalled();
-    });
   });
 });

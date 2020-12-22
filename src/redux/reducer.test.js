@@ -9,7 +9,7 @@ describe('reducer', () => {
   const initialState = {
     selectedOptions: {
       region: '',
-      climbingLevel: '',
+      level: '',
       season: '',
       activity: '',
     },

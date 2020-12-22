@@ -1,6 +1,8 @@
 import React from 'react';
 
-import { render } from '@testing-library/react';
+import { render, fireEvent } from '@testing-library/react';
+
+import MockTheme from 'utils/MockTheme';
 
 import Courses from './Courses';
 
@@ -11,7 +13,9 @@ describe('Courses', () => {
 
   function renderCourses(data) {
     return render(
-      <Courses courses={data} onClick={handleClick} />,
+      <MockTheme>
+        <Courses courses={data} onClick={handleClick} />
+      </MockTheme>,
     );
   }
 
@@ -24,8 +28,28 @@ describe('Courses', () => {
     expect(container).toHaveTextContent('소요산');
   });
 
+  // describe('click course item', () => {
+  //   it('calls onClick', () => {
+  //     const { getByRole } = render(courses);
+
+  //     fireEvent.click(getByRole('button'));
+
+  //     expect(handleClick).toBeCalled();
+  //   });
+  // });
+
+  describe('click arrow button', () => {
+    it('click right button', () => {
+      const { getByRole } = renderCourses(courses);
+
+      fireEvent.click(getByRole('button', { name: 'right' }));
+
+      fireEvent.click(getByRole('button', { name: 'left' }));
+    });
+  });
+
   context('without courses', () => {
     const { getByAltText } = renderCourses([]);
-    expect(getByAltText('등산코스 없음')).toBeInTheDocument();
+    expect(getByAltText('등산 코스 없음')).toBeInTheDocument();
   });
 });

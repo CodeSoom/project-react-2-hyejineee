@@ -4,6 +4,8 @@ import { render } from '@testing-library/react';
 
 import { MemoryRouter } from 'react-router-dom';
 
+import MockTheme from 'utils/MockTheme';
+
 import questions from '../../features/questions';
 
 import Questions from './Questions';
@@ -13,9 +15,11 @@ describe('Questions', () => {
 
   function renderQuestions() {
     return render(
-      <MemoryRouter>
-        <Questions questions={questions} onChange={handleChange} />
-      </MemoryRouter>,
+      <MockTheme>
+        <MemoryRouter>
+          <Questions questions={questions} onChange={handleChange} />
+        </MemoryRouter>
+      </MockTheme>,
     );
   }
 

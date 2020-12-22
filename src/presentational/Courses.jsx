@@ -102,7 +102,7 @@ export default function Courses({ courses, onClick }) {
   return (
     <Container>
 
-      <ArrowButton type="button" onClick={previousPage}>
+      <ArrowButton type="button" onClick={previousPage} name="left">
         <img src={leftIcon} alt="left" />
       </ArrowButton>
 
@@ -121,7 +121,7 @@ export default function Courses({ courses, onClick }) {
         }
       </List>
 
-      <ArrowButton type="button" onClick={nextPage}>
+      <ArrowButton type="button" onClick={nextPage} name="right">
         <img src={rightIcon} alt="right" />
       </ArrowButton>
 

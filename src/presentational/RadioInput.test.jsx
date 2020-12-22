@@ -2,6 +2,8 @@ import React from 'react';
 
 import { fireEvent, render } from '@testing-library/react';
 
+import MockTheme from 'utils/MockTheme';
+
 import RadioInput from './RadioInput';
 
 describe('RadioInput', () => {
@@ -13,12 +15,14 @@ describe('RadioInput', () => {
 
   function renderRadioInput() {
     return render(
-      <RadioInput
-        id={1}
-        name="region"
-        value="서울"
-        onChange={handleChange}
-      />,
+      <MockTheme>
+        <RadioInput
+          id={1}
+          name="region"
+          value="서울"
+          onChange={handleChange}
+        />
+      </MockTheme>,
     );
   }
 

@@ -4,17 +4,17 @@ import { render } from '@testing-library/react';
 
 import { MemoryRouter } from 'react-router-dom';
 
-import { ThemeProvider } from '@emotion/react';
-import theme from 'style/theme';
+import MockTheme from 'utils/MockTheme';
+
 import HomePage from './HomePage';
 
 test('MainPage', () => {
   const { container, getByText } = render(
-    <ThemeProvider theme={theme}>
+    <MockTheme>
       <MemoryRouter>
         <HomePage />
       </MemoryRouter>
-    </ThemeProvider>,
+    </MockTheme>,
   );
 
   expect(container).toHaveTextContent('당신만의 등산로를 찾아드립니다!');

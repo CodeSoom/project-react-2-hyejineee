@@ -6,6 +6,10 @@ import { useDispatch, useSelector } from 'react-redux';
 
 import { RenderAfterNavermapsLoaded, NaverMap } from 'react-naver-maps';
 
+import { MemoryRouter } from 'react-router-dom';
+
+import MockTheme from 'utils/MockTheme';
+
 import ResultPage from './ResultPage';
 
 jest.mock('react-naver-maps');
@@ -19,7 +23,7 @@ describe('ResultPage', () => {
   useSelector.mockImplementation((selector) => selector({
     selectedOptions: {
       region: '서울',
-      climbingLevel: '초보자',
+      level: '초보자',
       season: '가을',
       activity: '경치 구경하기',
     },
@@ -52,7 +56,11 @@ describe('ResultPage', () => {
 
   function renderResultPage() {
     return render(
-      <ResultPage />,
+      <MockTheme>
+        <MemoryRouter>
+          <ResultPage />
+        </MemoryRouter>
+      </MockTheme>,
     );
   }
 
