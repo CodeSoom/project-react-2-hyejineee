@@ -8,7 +8,7 @@ module.exports = {
   output: {
     path: `${__dirname}/build`,
     filename: 'bundle.js',
-    publicPath: '/project-react-2-hyejineee/',
+    publicPath: '/',
   },
   module: {
     rules: [
@@ -23,7 +23,7 @@ module.exports = {
           {
             loader: 'file-loader',
             options: {
-              publicPath: '/project-react-2-hyejineee/',
+              publicPath: '/',
               name: 'assets/images/[name].[ext]',
             },
           },
@@ -35,7 +35,7 @@ module.exports = {
           {
             loader: 'file-loader',
             options: {
-              publicPath: '/project-react-2-hyejineee/',
+              publicPath: '/',
               name: 'data/gpx/[name].[ext]',
             },
           },
@@ -67,7 +67,6 @@ module.exports = {
     new Dotenv(),
     new webpack.DefinePlugin({
       'process.env': {
-        REACT_APP_BASE_URL: JSON.stringify(process.env.REACT_APP_BASE_URL),
         REACT_APP_MAP_CLIENT_ID: JSON.stringify(process.env.REACT_APP_MAP_CLIENT_ID),
       },
     }),
