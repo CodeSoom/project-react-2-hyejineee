@@ -67,7 +67,6 @@ module.exports = {
     new Dotenv(),
     new webpack.DefinePlugin({
       'process.env': {
-        REACT_APP_BASE_URL: JSON.stringify(process.env.REACT_APP_BASE_URL),
         REACT_APP_MAP_CLIENT_ID: JSON.stringify(process.env.REACT_APP_MAP_CLIENT_ID),
       },
     }),

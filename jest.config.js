@@ -22,7 +22,6 @@ module.exports = {
     '^asset/(.*)': '<rootDir>/src/asset/$1',
     '^style/(.*)': '<rootDir>/src/style/$1',
     '^utils/(.*)': '<rootDir>/src/utils/$1',
-    // '\\.(gpx|png|svg)$': '<rootDir>/__mocks__/fileMock.js',
   },
   transform: {
     '\\.(js|jsx)$': 'babel-jest',
